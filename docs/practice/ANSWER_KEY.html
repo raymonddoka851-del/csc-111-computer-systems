@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Answer key and self-assessment · CSC 111 Revision</title>
+<title>CSC 111 · Worked answer key · CSC 111 Revision</title>
 <meta name="description" content="Study notes for CSC 111 computer systems, hardware, software, networks and applications.">
 <link rel="stylesheet" href="../assets/notes.css">
 <link rel="stylesheet" href="../assets/theme.css">
@@ -36,14 +36,44 @@
   </div>
   <article class="content">
 <div class="page-tools"><button type="button" class="done-btn" id="markDone">Mark as done</button></div>
-<h1 id="answer-key-and-self-assessment">Answer key and self-assessment</h1>
-<p>This pack is based on the provided course outline and lecture material. For open-ended questions, check the relevant topic note and the original source material. A complete answer should use accurate terminology, show the reasoning or method, and address every part of the prompt.</p>
-<ul>
-<li><strong>Ready:</strong> correct explanation without notes.</li>
-<li><strong>Review:</strong> mostly correct, but needed a prompt or missed an important step.</li>
-<li><strong>Retry:</strong> could not explain the idea yet; revisit the note and try again.</li>
-</ul>
-<p>Keep corrections in the weak-topic action plan rather than copying answers without understanding them.</p>
+<h1 id="csc-111-worked-answer-key">CSC 111 · Worked answer key</h1>
+<p>Use these as model reasoning, not text to memorize. Equivalent wording is acceptable when the concepts and steps are correct.</p>
+<h2 id="01-foundations">01 · Foundations</h2>
+<p><strong>Q01.</strong> Input is the three typed scores and the instruction to calculate a mean. Processing adds the values and divides by three. Output is the displayed mean. Storage is the saved file or record that retains the result after the program closes.</p>
+<p><strong>Q02.</strong> From right to left, the place values are 1, 2, 4, 8, 16. Thus <code>10110₂ = 1×16 + 0×8 + 1×4 + 1×2 + 0×1 = 22₁₀</code>.</p>
+<p><strong>Q03.</strong> First-generation computers used vacuum tubes; they were large, hot, power-hungry, and required considerable maintenance. Fourth-generation systems use microprocessors, putting the CPU on a chip; this enabled smaller, cheaper personal computers with much greater capability.</p>
+<h2 id="02-hardware">02 · Hardware</h2>
+<p><strong>Q04.</strong> RAM is temporary, fast working memory used by running programs; disk/SSD storage keeps files persistently. Free disk space does not indicate available RAM. Many open programs may exhaust working memory and cause slowdowns, so insufficient RAM is a likely bottleneck (though CPU or other causes are also possible).</p>
+<p><strong>Q05.</strong> Use OMR for a carefully designed answer sheet with filled marks. Use OCR to recognize the printed paragraph and turn it into editable characters.</p>
+<p><strong>Q06.</strong> Keyboard (input) sends the key data to the system; data/instructions are held in RAM; CPU control and arithmetic/logic units execute the calculation; the display (output) shows the result. If the result is saved, secondary storage retains it.</p>
+<h2 id="03-software">03 · Software</h2>
+<p><strong>Q07.</strong> Windows is an OS, therefore system software. A printer driver is system software that lets the OS control a device. A backup utility is system software/utility software that supports maintenance. Excel is application software for spreadsheet tasks.</p>
+<p><strong>Q08.</strong></p>
+<pre class="code" data-lang="text"><code>INPUT C
+F = C * 9 / 5 + 32
+OUTPUT F</code></pre>
+<p>For <code>C = 20</code>: <code>20 × 9 / 5 + 32 = 36 + 32 = 68°F</code>. Include parentheses if the chosen language’s operator precedence requires them: <code>(C * 9 / 5) + 32</code>.</p>
+<p><strong>Q09.</strong> Warning signs include an unexpected attachment and pressure to act immediately; sender/address mismatch or a request for credentials/payment are additional signs. Do not open or reply; verify with the supposed sender through a separate trusted channel, then report/delete according to policy. If opened, notify support promptly and follow incident instructions.</p>
+<h2 id="04-windows-and-files">04 · Windows and files</h2>
+<p><strong>Q10.</strong> Open File Explorer → Documents → New folder → name it <code>CSC111</code> → open it → create <code>Week1</code> → open that folder. In Word choose Save As, browse to <code>Documents\CSC111\Week1</code>, enter <code>review.docx</code>, and save. Verify the title/filename and location in the Save dialog or File Explorer; reopening the file is a useful check.</p>
+<p><strong>Q11.</strong> Copy creates a separate file while retaining the original. Move relocates the item to another location. A shortcut points to the original and is not an independent copy. Copy is the method that preserves the original and creates another file.</p>
+<p><strong>Q12.</strong> Lock protects the current signed-in session and leaves programs running; sign out closes the user session and programs; restart closes and reloads the OS. For a brief absence, Lock is appropriate.</p>
+<h2 id="05-internet-and-email">05 · Internet and email</h2>
+<p><strong>Q13.</strong> The Internet is the global system of connected networks. The Web is a service running over it, made of linked pages and resources. A browser requests and displays Web content. A search engine indexes content and helps locate pages; it is accessed using a browser.</p>
+<p><strong>Q14.</strong> Check (1) who authored/published it and their relevant expertise, (2) evidence and links to original data, (3) date and whether it is current, (4) purpose, funding, or possible bias. Compare independent authoritative sources and cite the source actually consulted. Do not treat high search ranking as proof of reliability.</p>
+<p><strong>Q15.</strong> Use Bcc to conceal recipients’ addresses from one another (or use an approved mailing-list service). Before sending, verify the address/list, subject and message, attachment and its privacy, and that Bcc is populated correctly; send a test to yourself if appropriate.</p>
+<h2 id="06-word-processing">06 · Word processing</h2>
+<p><strong>Q16.</strong> Create a blank document and Save As <code>.docx</code> in the correct folder. Type the title and use Heading 1 for the two section headings; use Normal for body text. Insert page numbers using Insert → Page Number. Check page layout and print preview, then save and verify the filename/location.</p>
+<p><strong>Q17.</strong> Heading styles create consistent formatting and document structure, allowing navigation and an automatically generated table of contents. Page breaks place content reliably on a new page; repeated Enter presses can shift unpredictably when earlier content changes.</p>
+<p><strong>Q18.</strong> Prepare a template and clean spreadsheet (one recipient per row, clear field headings); select Mailings → Start Mail Merge → choose recipients → insert fields → preview several letters → finish/print or send. Check recipient accuracy and sample personalized results. Also confirm permission/privacy, correct attachment/content, and test delivery before sending to everyone.</p>
+<h2 id="07-spreadsheets-and-excel">07 · Spreadsheets and Excel</h2>
+<p><strong>Q19.</strong> Sum formula: <code>=SUM(B2:B5)</code> → <code>12+18+15+5 = 50</code>. Average formula: <code>=AVERAGE(B2:B5)</code> → <code>50/4 = 12.5</code>.</p>
+<p><strong>Q20.</strong> In <code>D2</code>, use <code>=C2*$B$1</code>. <code>$B$1</code> is absolute so it does not move when copied. In <code>D3</code>, the formula becomes <code>=C3*$B$1</code>. For the given row, tax is <code>250 × 0.16 = 40</code>.</p>
+<p><strong>Q21.</strong> Sorting only one column breaks the record associations, so names no longer match their original row data. Select the whole table, indicate that it has headers if prompted, then sort by surname. A bar/column chart is suitable for comparing four product sales.</p>
+<h2 id="08-presentations-and-networks">08 · Presentations and networks</h2>
+<p><strong>Q22.</strong> Example: (1) title and purpose, high-contrast large title; (2) common risks, short list with one simple icon; (3) prevention steps, numbered sequence; (4) response/reporting and takeaway, one clear action. Keep one main idea per slide, use a consistent theme, cite image/data sources, and rehearse. Other sensible four-part outlines earn credit.</p>
+<p><strong>Q23.</strong> It is a LAN because it covers the office/campus site. A switch connects local devices and forwards traffic within the LAN; a router directs traffic between that LAN and other networks such as the Internet. A benefit is sharing a printer or Internet connection.</p>
+<p><strong>Q24.</strong> Benefits include shared printers/files and faster communication. Risks include unauthorized access and privacy loss; use unique passwords, access permissions, and multi-factor authentication where available. Malware and outages are other risks; keep devices updated, use approved security tools, and maintain separate backups.</p>
 
   </article>
 <nav class="pager"><a class="prev" href="../practice/QUESTION_BANK.html"><span class="dir">&larr; Previous</span><span class="name">Question bank</span></a><span class="spacer"></span></nav>
@@ -53,7 +83,7 @@
 </main>
 <aside class="toc">
   <div class="toc-title">On this page</div>
-  
+  <a href="#01-foundations">01 · Foundations</a><a href="#02-hardware">02 · Hardware</a><a href="#03-software">03 · Software</a><a href="#04-windows-and-files">04 · Windows and files</a><a href="#05-internet-and-email">05 · Internet and email</a><a href="#06-word-processing">06 · Word processing</a><a href="#07-spreadsheets-and-excel">07 · Spreadsheets and Excel</a><a href="#08-presentations-and-networks">08 · Presentations and networks</a>
 </aside>
 </div>
 <div class="search-overlay" id="searchOverlay" hidden>

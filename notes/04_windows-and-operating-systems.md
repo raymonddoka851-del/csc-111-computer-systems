@@ -1,51 +1,48 @@
 # 04 · Windows and Operating Systems
 
-> Source: Chapter 4 - Introduction to Windows.txt. This page is searchable, and the checklist state is saved in this browser.
+![Source figure from Chapter 4: Windows](../assets/figures/chapter-4-introduction-to-windows-p02-i01.png)
 
-## Learning checks
+## What the OS does
 
-- [ ] Identify the key terms and explain them without looking.
-- [ ] Summarize the main idea in your own words.
-- [ ] Work through an example or answer a related question.
+An **operating system (OS)** is system software that provides the user interface and coordinates programs, CPU time, memory, files, storage, and peripheral devices. Windows presents a graphical interface with windows, menus, icons, and a pointer. Common desktop elements include the Start menu, taskbar, notification area, File Explorer, and Recycle Bin.
 
-## Course notes
+When a computer starts, firmware performs initial checks (POST), finds a boot device, loads the OS, and presents the sign-in screen. A **cold boot** starts from power off; a **restart/warm boot** reloads the system without a full power-off. Save work before either.
 
-COM 111 - Chapter 4: Intro. To Windows Page 1 COM 111 COMPUTERS APPLICATIONS CHAPTER FOUR: WINDOWS BASICS At the end of the chapter the learner shall be able to; Explain the process of booting a computer Start a computer system and
+## File and folder procedure
 
-log on to windows operating system Start a program using the all programs menu# Turn off and restart a computer Retrieve files, create a folder and a shortcut to a program 4.1 Windows operating system Boot up Process Booting Up It is useful to understan
+Use File Explorer to organize work rather than leaving files scattered on the desktop.
 
-machine to an operable and functional system. There are essentially two forms of booting - the soft boot and the hard boot. The warm boot or hard boot involves powering the computer up from an initial zero power supply. A cold boot on the other hand takes place when a software application or operating system triggers the computer to perform a reboot.
+1. Open File Explorer and choose a suitable location, such as Documents or an approved course folder.
+2. Select **New folder**, give it a clear name (for example, `CSC111_Revision`), and press Enter.
+3. Open that folder; create descriptive filenames such as `network-notes.docx`.
+4. Save a new document with **Save As** to choose its location and format. Use **Save** for later changes.
+5. To move a file, select it and use **Cut** then **Paste** at the destination; use **Copy** when you need to keep the original too.
+6. Check the destination and filename before deleting anything. Deleted files may be recoverable from the Recycle Bin until it is emptied.
 
-A successful boot is dependent on 3 conditions - the hardware, BIOS and operating system files to function without errors. When an error occurs, you will be notified by error messages, beeping sounds or in the worst scenario, a blank screen. Boot-up Process The boot-up process is a list of detailed procedures that the system undergoes to perform all system checks
+A **path** identifies a file’s location, such as `Documents\CSC111\week1.docx`. A **file extension** (such as `.docx` or `.xlsx`) indicates the file type; changing the visible name alone does not reliably convert the format. A shortcut points to an item; it is not a second copy of the file.
 
-The Windows boot-up process comprises of the following procedures: a. The Power-On Self Test Phase b. BIOS ROM Phase c. Boot Loader Phase d. Operating System Configuration Phase
+### Find and manage a file
 
-e. Security & Logon Phase 4.2 Logging On to Windows You must log on to the PC before you can use it. Each user is given a user name and a password which must be entered in the log-on screen before Windows will start up. When you log on you will have access to your own personal space.
+- Search by a distinctive filename or part of it; check the current folder and filters if no result appears.
+- Rename using a clear, descriptive name; avoid changing the extension.
+- Back up important files to an approved separate location. Cloud synchronization is useful but is not the same as an independent backup.
+- Use **Lock** when stepping away briefly; **Sign out** ends your session; **Restart** reloads Windows. Choose the option appropriate to the situation.
 
-login; Enter your user and password in the respective boxes. When you enter your passpassword from wandering eyes. Press ENTER on the keyboard or click OK 4.3
+## Accounts, privacy, and maintenance
 
-Desktop is your work area on which program and files icons are located. It is basically a workspace where you can access everything you need to operate your computer, such as system components, applications, the Internet, etc.
+Use your own account, a strong unique password, and a screen lock. Do not share credentials or store them in plain text. Install updates and applications only through trusted, authorized channels. Check permissions before sharing folders. Follow school/work policy for removable drives and cloud storage. Before disposing of a device, have its data securely erased by an authorized process.
 
-COM 111 - Chapter 4: Intro. To Windows Page 2 The desktop contains: Example using Windows XP icons Start button task bar System Tray The desktop contains: Start button: one of the most important tools you will use while working with Windows. The Start button allows you to open menus and start applications. Taskbar: primarily used to switch between open windows and applications Icons (or graphical pictures): represent applications, files, folders and other parts of the operating system. By default Windows provides you with one desktop icon, the Recycle Bin. Learn more about the Recycle Bin in a later module. My Computer. The My Computer icon provides access to the resources on your computer. You can access your drives and other peripherals by clicking on the My Computer icon. You can also access the Control Panel through My Computer. Internet Explorer. The Internet Explorer icon launches the Internet Explorer browser. My network places. If you are working on a network, this displays all of the computers on the network System Tray. The part of the taskbar that holds the clock, volume control, and icons for other utilities that runs in the background of your system. Recycle Bin. This is where you dump any files you want to delete. 4.4 Starting a Program 1. Click the Start button, the Start menu will pop up. 2. Point your cursor to All Programs. A Menu listing the different program categories pops up.
+Maintain good posture, keep vents clear, protect devices from liquid and heat, and shut down through the operating system. Forced power-off can lose unsaved work or damage files; use it only when normal controls have failed.
 
-COM 111 - Chapter 4: Intro. To Windows Page 3 3. Point your cursor to Microsoft Office, another menu will appear to the right of the All Programs menu, as shown below. 4. Click on Microsoft Word. 4.5. Parts of a Window Windows contain buttons and menus to control the program and window. Windows are used in most programs, but the good news is once you learn the window of one program, you will be familiar with the windows for most programs since the window, menu and button layout appears in just about every window program.
-
-COM 111 - Chapter 4: Intro. To Windows Page 4 1. Close Button memory. 2. Minimize Button Minimizes a program from view. The program is still ready for use and can be found in the task bar. 3. Maximize Button Enlarges the window so that it fills the entire screen, allowing you to see your entire workspace. Notice, when a window is maximized, this button is not shown. 4. Restore Button When a window is maximized, this button is shown. Clicking it will make the window smaller. 5. Menu Bar Controls what a program does. The menu functions listed will change from program to program, but the bar is always located at the top. 6. Status Bar Displays information about the program, such as instructions or special information. 7. Title Bar Displays the name of the program and name of the file in use. 8. Main Window .This is where you work within a program. If it is Microsoft Word, this is where you would type, if it is a web browser this is where the web page would be displayed. 9. Toolbar. Have shortcuts to the menu items 4.6. System Management: Log off, Switch Users, Restart, Lock System More than one person may use your computer. For example several coworkers may be able to access your computer on a computer network. Windows allows everyone who uses your computer to have separate computer accounts. A computer accounts tracks each person's unique settings, documents, and email accounts. Windows even enables you to log off the computer so someone else can log on without having to restart the computer. Command Click the Start menu Click the Arrow to the right of Shut Down Select and Click the appropriate option a) Switch User allows someone else to log on to the computer. If you choose to Switch User, your applications will continue to run in the background while the new user logs on. b) Log Off: If you choose Log Off, your applications will close and the systems takes you to the log-in window where you will be required to type in your username and password. c) Lock; the system will be locked and cannot be access by anyone until you unlock it by entering your password. d) Restart: the system shuts down and restarts again (re-boots) e) Sleep:- System is put to sleep where it slows down its activities, power usage etc. sometimes a user f) Hibernate: Puts the system to an inactive state.
-
-COM 111 - Chapter 4: Intro. To Windows Page 5 Windows 7 and Above 4.7 Working With Files and Folders Computer folders are named memory spaces that can be used to store files. Creating a Folder Folders can be create in hierarchical tree format where folders can hold sub-folders etc. Folder A Folder B (Sub-folder of A) Folder C (Sub-folder of B) Create a folder on the C-Drive Open the C-Drive Double Click the My Computer Icon on the Desktop OR Click New, then select and click Computer
-
-COM 111 - Chapter 4: Intro. To Windows Page 6 Double Click the Local Disk (C:) to open it Select and click New folder option on the Menu Bar. The folder will appear at the bottom of your list. When it displays as a black rectangle with the words New Folder highlighted in blue, it is prompting you to give it a name. Type in the name of the folder created and press Enter Key To Create a folder in side another folder Sub-folders. Double Click the proposed parent folder and open it Select and click New folder option on the Menu Bar. The folder will appear at the bottom of your list. When it displays as a black rectangle with the words New Folder highlighted in blue, it is prompting you to give it a name. Type in the name of the folder created and press Enter Key Open your Folders Double click my computer and locate your file. Double click on the folder. The contents of the folder will be displayed in the open window. To get back to the previous folder, click the Back Button. Renaming a Folder To rename an existing folder, move your mouse over the name and right click. A menu will appear. Close to the bottom you will see the word Rename. Click it, and the black rectangle with the word highlighted in blue will appear. Rename your folder and hit Enter. Deleting a folder Right click on the folder and select delete or. Select the file, go to file menu and select delete A dialog box appears asking if you want to delete the folder, click yes
-
-COM 111 - Chapter 4: Intro. To Windows Page 7 Once files are deleted they go to the recycle bin which is a holding or storage location for files not required. Such files are still in the hard disk. These files can be retrieved from recycle bin as long as recycle bin have not been emptied. Copying files in folders Copying file between folders allows you to have two duplicate copies of the file in different folders. A copy of the file is left in the Source folder while a duplicate copy is maintained in any subsequent folder it is copied to. Source Folder Select the file from the Source folder Select and Click Organize menu Select and click copy Destination folder Select and double click the Destination folder Select and click Organize menu Select and Click Paste By dragging Open the source and destination folders and place them next to each other Click on the file on source folder and hold the mouse left button down Drag it to the destination folder and release the button Short cuts Short cuts are icons placed on the Desktop that allows you to quickly open a program or file Procedure of creating shortcuts Locate the item and right click Select Send to menu Select Desktop (create shortcut)
-
-COM 111 - Chapter 4: Intro. To Windows Page 8 Recycle Bin Windows provides us with a folder called recycle bin where all deleted files are stored. If you accidently delete a file you can be able to retrieve it from the recycle bin and restore it to the folder it originally was stored in. The Recycle bin icon is always place on the desktop. The folder is the equivalent of dust bin in an office. Retrieving files Select and double click the recycle bin Icon on the Desktop to open it Locate the file and right click on it and select restore. 4.8 Chapter Review Questions 1. Which of the following is not contained in the Windows desktop (a) Recycle Bin (b) Task Bar (c) Start Button (d) File menu 2. Which of the following has the command for turning off the computers system (a) Recycle Bin (b) Task Bar (c) Start Button (d) File menu 3. A user can create a folder on the desktop. True or false 4. Which of the following is not part of a window? (a) Task Bar (b) Menu Bar (c) Title Bar (d) Close Button 5. Explain the steps you would follow to create a folder in my documents location.
+:::mistakes
+- A shortcut is a link to a file or program, not the file itself.
+- Save As changes the destination/name/format; Save updates the current document.
+- Moving a file differs from copying it. Verify the destination before removing the source.
+- Do not empty the Recycle Bin until you are sure you no longer need its contents.
+:::
 
 ## Active recall
 
-:::steps
-## Retrieval practice
----
-Close or cover the notes. Write the key idea, method, or definitions you remember.
----
-Reopen the notes and correct your recall in a different color. Add weak points to the progress tracker.
-:::
+1. List the stages from pressing the power button to the Windows sign-in screen.
+2. Describe how to create a course folder, save a document into it, and verify the saved file.
+3. Compare Lock, Sign out, Restart, and Shut down; give one appropriate use for each.

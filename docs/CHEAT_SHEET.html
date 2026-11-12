@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CSC 111 — topic map · CSC 111 Revision</title>
+<title>CSC 111 · Practical review · CSC 111 Revision</title>
 <meta name="description" content="Study notes for CSC 111 computer systems, hardware, software, networks and applications.">
 <link rel="stylesheet" href="assets/notes.css">
 <link rel="stylesheet" href="assets/theme.css">
@@ -36,18 +36,80 @@
   </div>
   <article class="content">
 <div class="page-tools"><button type="button" class="done-btn" id="markDone">Mark as done</button></div>
-<h1 id="csc-111-topic-map">CSC 111 — topic map</h1>
-<p>Use this page as a fast index, not a replacement for the notes. Search by definition, method, example, or phrase to jump into the relevant section.</p>
+<h1 id="csc-111-practical-review">CSC 111 · Practical review</h1>
+<p>Use this as a short final-pass checklist, then practise without looking at your notes. Follow the links for explanations and worked examples.</p>
+<h2 id="1-foundations">1 · Foundations</h2>
 <ul>
-<li><strong>01 · Computer Systems: Foundations</strong> — <a href="notes/01_computer-systems-foundations.html">notes/01_computer-systems-foundations.md</a></li>
-<li><strong>02 · Computer Hardware Components</strong> — <a href="notes/02_computer-hardware-components.html">notes/02_computer-hardware-components.md</a></li>
-<li><strong>03 · Computer Software</strong> — <a href="notes/03_computer-software.html">notes/03_computer-software.md</a></li>
-<li><strong>04 · Windows and Operating Systems</strong> — <a href="notes/04_windows-and-operating-systems.html">notes/04_windows-and-operating-systems.md</a></li>
-<li><strong>05 · Internet and Email</strong> — <a href="notes/05_internet-and-email.html">notes/05_internet-and-email.md</a></li>
-<li><strong>06 · Word Processing</strong> — <a href="notes/06_word-processing.html">notes/06_word-processing.md</a></li>
-<li><strong>07 · Spreadsheets and Excel</strong> — <a href="notes/07_spreadsheets-and-excel.html">notes/07_spreadsheets-and-excel.md</a></li>
-<li><strong>08 · Presentations and Computer Networks</strong> — <a href="notes/08_presentations-and-computer-networks.html">notes/08_presentations-and-computer-networks.md</a></li>
+<li>Trace <strong>input → processing → output</strong>, with storage supporting each stage.</li>
+<li>Distinguish data from information, hardware from software, and capacity from speed.</li>
+<li>Binary place values (right to left): 1, 2, 4, 8, 16, 32. For <code>1101₂</code>, add <code>8 + 4 + 0 + 1 = 13₁₀</code>.</li>
+<li>Review generations by technology: vacuum tubes, transistors, integrated circuits, microprocessors, then modern VLSI/parallel development.</li>
+<li>Ask whether a result is accurate, useful, ethical, and based on trustworthy input.</li>
 </ul>
+<p><a href="notes/01_computer-systems-foundations.html">Open note 01</a></p>
+<h2 id="2-hardware">2 · Hardware</h2>
+<ul>
+<li>Input enters data; CPU executes instructions; RAM holds current work; secondary storage keeps files; output presents results.</li>
+<li>CPU = control unit + arithmetic/logic unit + registers. RAM is volatile; ROM/firmware is persistent; cache is very fast.</li>
+<li>OCR recognizes text; OMR detects marked boxes. A touchscreen is both input and output.</li>
+<li>Protect devices from heat, liquids, unsafe power, static, and unauthorized access.</li>
+</ul>
+<p><a href="notes/02_computer-hardware-components.html">Open note 02</a></p>
+<h2 id="3-software">3 · Software</h2>
+<ul>
+<li>System software manages the computer; applications help users complete tasks.</li>
+<li>OS, driver, utility, and application are different roles. Compiler, interpreter, and assembler translate code differently.</li>
+<li>Algorithm: define input, process, output, test with a sample case.</li>
+<li>Malware: virus, worm, Trojan, ransomware, spyware. Keep software updated, back up, and report suspicious activity.</li>
+</ul>
+<p><a href="notes/03_computer-software.html">Open note 03</a></p>
+<h2 id="4-windows-and-files">4 · Windows and files</h2>
+<ul>
+<li>Startup: firmware checks hardware → boot device/loader → OS loads → sign-in.</li>
+<li>Create folder → use a clear filename → Save As to the correct location → Save changes → verify destination.</li>
+<li>Copy preserves original; move relocates it; shortcut points to it. Do not change extensions to convert files.</li>
+<li>Lock when stepping away; sign out to end a session; restart to reload Windows. Save first.</li>
+</ul>
+<p><a href="notes/04_windows-and-operating-systems.html">Open note 04</a></p>
+<h2 id="5-internet-and-email">5 · Internet and email</h2>
+<ul>
+<li>Internet = interconnected networks; Web = a service on it; browser displays pages; search engine helps find them.</li>
+<li>Evaluate author, evidence, date, purpose, and citations. Compare sources and cite what you use.</li>
+<li>Email: verify recipient, use specific subject, concise message, correct attachment; proofread before send.</li>
+<li>Cc is visible to recipients; Bcc hides addresses from one another. Verify unusual requests through a separate channel.</li>
+</ul>
+<p><a href="notes/05_internet-and-email.html">Open note 05</a></p>
+<h2 id="6-word">6 · Word</h2>
+<ul>
+<li><strong>Save As</strong> first; save regularly. Use heading styles, consistent paragraph formatting, and page breaks.</li>
+<li>Insert tables/images from the ribbon; preserve image proportions; add page numbers where needed.</li>
+<li>Review spelling and grammar, then proofread names/numbers and inspect print preview.</li>
+<li>Mail merge combines a template and recipient list: clean data → connect → insert fields → preview → finish carefully.</li>
+</ul>
+<p><a href="notes/06_word-processing.html">Open note 06</a></p>
+<h2 id="7-excel">7 · Excel</h2>
+<ul>
+<li>Cell <code>B3</code> means column B, row 3. Range <code>B2:B6</code> includes both endpoints.</li>
+<li>Formula starts with <code>=</code>: <code>=B2*C2</code>. Common functions: <code>SUM</code>, <code>AVERAGE</code>, <code>MIN</code>, <code>MAX</code>, <code>COUNT</code>.</li>
+<li>Relative <code>B1</code> changes when copied; absolute <code>$B$1</code> remains fixed.</li>
+<li>Sort complete records; filter to inspect; select labels and values before inserting a chart.</li>
+<li>Check formula bar and errors; save <code>.xlsx</code> to preserve workbook features.</li>
+</ul>
+<p><a href="notes/07_spreadsheets-and-excel.html">Open note 07</a></p>
+<h2 id="8-powerpoint-and-networks">8 · PowerPoint and networks</h2>
+<ul>
+<li>Slides should communicate one main point each; keep text readable, use consistent design, cite sources, rehearse.</li>
+<li>Network benefits: communication/resource sharing. Risks: access abuse, privacy loss, malware, outages.</li>
+<li>LAN = local site; WAN = wider area. Switch connects within a LAN; router directs traffic between networks.</li>
+<li>Use approved Wi-Fi, unique passwords, updates, and restrained sharing.</li>
+</ul>
+<p><a href="notes/08_presentations-and-computer-networks.html">Open note 08</a></p>
+<h2 id="final-practice-routine">Final practice routine</h2>
+<ol>
+<li>Choose one question from each topic in the <a href="practice/QUESTION_BANK.html">question bank</a>.</li>
+<li>Attempt it closed-book; show calculations and procedures, not just the final result.</li>
+<li>Compare with the <a href="practice/ANSWER_KEY.html">worked answer key</a>, correct in a different color, and log a next action in the <a href="PROGRESS_TRACKER.html">progress tracker</a>.</li>
+</ol>
 
   </article>
 <nav class="pager"><a class="prev" href="YOUR_STUDY_PLAN.html"><span class="dir">&larr; Previous</span><span class="name">Your study plan</span></a><a class="next" href="PROGRESS_TRACKER.html"><span class="dir">Next &rarr;</span><span class="name">Progress tracker</span></a></nav>
@@ -57,7 +119,7 @@
 </main>
 <aside class="toc">
   <div class="toc-title">On this page</div>
-  
+  <a href="#1-foundations">1 · Foundations</a><a href="#2-hardware">2 · Hardware</a><a href="#3-software">3 · Software</a><a href="#4-windows-and-files">4 · Windows and files</a><a href="#5-internet-and-email">5 · Internet and email</a><a href="#6-word">6 · Word</a><a href="#7-excel">7 · Excel</a><a href="#8-powerpoint-and-networks">8 · PowerPoint and networks</a><a href="#final-practice-routine">Final practice routine</a>
 </aside>
 </div>
 <div class="search-overlay" id="searchOverlay" hidden>
