@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>03 · Computer Software · CSC 111 Revision</title>
+<meta name="description" content="Study notes for CSC 111 computer systems, hardware, software, networks and applications.">
+<link rel="stylesheet" href="../assets/notes.css">
+<link rel="stylesheet" href="../assets/theme.css">
+</head>
+<body data-page="notes/03_computer-software.html" data-pages="[{&quot;label&quot;:&quot;01 · Computer Systems: Foundations&quot;,&quot;href&quot;:&quot;01_computer-systems-foundations.html&quot;,&quot;key&quot;:&quot;notes/01_computer-systems-foundations.html&quot;},{&quot;label&quot;:&quot;02 · Computer Hardware Components&quot;,&quot;href&quot;:&quot;02_computer-hardware-components.html&quot;,&quot;key&quot;:&quot;notes/02_computer-hardware-components.html&quot;},{&quot;label&quot;:&quot;03 · Computer Software&quot;,&quot;href&quot;:&quot;03_computer-software.html&quot;,&quot;key&quot;:&quot;notes/03_computer-software.html&quot;},{&quot;label&quot;:&quot;04 · Windows and Operating Systems&quot;,&quot;href&quot;:&quot;04_windows-and-operating-systems.html&quot;,&quot;key&quot;:&quot;notes/04_windows-and-operating-systems.html&quot;},{&quot;label&quot;:&quot;05 · Internet and Email&quot;,&quot;href&quot;:&quot;05_internet-and-email.html&quot;,&quot;key&quot;:&quot;notes/05_internet-and-email.html&quot;},{&quot;label&quot;:&quot;06 · Word Processing&quot;,&quot;href&quot;:&quot;06_word-processing.html&quot;,&quot;key&quot;:&quot;notes/06_word-processing.html&quot;},{&quot;label&quot;:&quot;07 · Spreadsheets and Excel&quot;,&quot;href&quot;:&quot;07_spreadsheets-and-excel.html&quot;,&quot;key&quot;:&quot;notes/07_spreadsheets-and-excel.html&quot;},{&quot;label&quot;:&quot;08 · Presentations and Computer Networks&quot;,&quot;href&quot;:&quot;08_presentations-and-computer-networks.html&quot;,&quot;key&quot;:&quot;notes/08_presentations-and-computer-networks.html&quot;}]">
+<div class="progress" id="progress"></div>
+<div class="layout">
+<aside class="sidebar">
+  <a class="brand" href="../index.html">
+    <span class="brand-mark">S</span>
+    <span class="brand-text"><strong>CSC 111</strong><span>Revision Notes</span></span>
+  </a>
+  <details class="nav-details" open>
+    <summary>Contents</summary>
+    <div class="nav-group"><div class="nav-head">Start here</div><a href="../START_HERE.html">Start here</a><a href="../YOUR_STUDY_PLAN.html">Your study plan</a><a href="../CHEAT_SHEET.html">Cheat sheet</a><a href="../PROGRESS_TRACKER.html">Progress tracker</a></div><div class="nav-group"><div class="nav-head">Notes</div><a href="../notes/01_computer-systems-foundations.html">01 · Computer Systems: Foundations</a><a href="../notes/02_computer-hardware-components.html">02 · Computer Hardware Components</a><a href="../notes/03_computer-software.html" class="active">03 · Computer Software</a><a href="../notes/04_windows-and-operating-systems.html">04 · Windows and Operating Systems</a><a href="../notes/05_internet-and-email.html">05 · Internet and Email</a><a href="../notes/06_word-processing.html">06 · Word Processing</a><a href="../notes/07_spreadsheets-and-excel.html">07 · Spreadsheets and Excel</a><a href="../notes/08_presentations-and-computer-networks.html">08 · Presentations and Computer Networks</a></div><div class="nav-group"><div class="nav-head">Practice</div><a href="../practice/QUESTION_BANK.html">Question bank</a><a href="../practice/ANSWER_KEY.html">Answer key</a></div><div class="nav-group"><div class="nav-head">Quiz</div><a href="../quiz/index.html">All quizzes</a></div>
+  </details>
+</aside>
+<main class="main">
+  <div class="topbar">
+    <span class="crumb">Notes <b>&rsaquo;</b> 03_computer-software</span>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="searchBtn" title="Search all pages (Ctrl+K)" aria-label="Search all pages">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+      </button>
+      <button class="icon-btn" id="findBtn" title="Find on this page (Ctrl+Alt+F)" aria-label="Find on this page">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7V5h16v2M9 20h6M12 5v15"></path></svg>
+      </button>
+      <button class="theme-btn" id="themeBtn" title="Switch light / dark" aria-label="Switch theme">&#9789;</button>
+    </div>
+  </div>
+  <article class="content">
+<div class="page-tools"><span class="check-count" id="checkCount">0 / 3 done</span><button type="button" class="reset-btn" id="resetChecks">Reset checklist</button><button type="button" class="done-btn" id="markDone">Mark as done</button></div>
+<h1 id="03-computer-software">03 · Computer Software</h1>
+<blockquote><p>Source: Chapter 3 - Computer Software.txt. This page is searchable, and the checklist state is saved in this browser.</p></blockquote>
+<h2 id="learning-checks">Learning checks</h2>
+<ul>
+<li><label class="task"><input type="checkbox" class="task-check" id="task1" data-task="task1"> <span class="task-text">Identify the key terms and explain them without looking.</span></label> </li>
+<li><label class="task"><input type="checkbox" class="task-check" id="task2" data-task="task2"> <span class="task-text">Summarize the main idea in your own words.</span></label> </li>
+<li><label class="task"><input type="checkbox" class="task-check" id="task3" data-task="task3"> <span class="task-text">Work through an example or answer a related question.</span></label> </li>
+</ul>
+<h2 id="course-notes">Course notes</h2>
+<p>Intro to Computer Chapter 3 Software Components Page 1 COM 111: COMPUTER APPLICATIONS CHAPTER THREE: COMPUTER SOFTWARE At the end of the chapter the learner shall be able to;</p>
+<p>Explain computer software and the classification of computer software Explain system software and the different software in that category and their application and importance in computing Explain application software and the different software in that category such general purpose and special purpose software</p>
+<p>Explain Ready made software vs tailor made software 3.1. Introduction Software is simply set of instructions that cause a computer to perform one or more tasks. The set of instructions is often called a program or, if the set is particularly large and complex, a system. Computers cannot do any useful work without instructions</p>
+<p>to do any computerized work. A program must tell the computer each of a set of tasks to perform, in a framework of logic, such that the computer knows exactly what to do and when to do it. Data are raw facts and ideas that have not been processed while Information is data that has been processed so as to be useful to the user 3.2. Classification of software</p>
+<p>The Software is categorized on the basis of functions into system software and application software</p>
+<p>Utilities Development programs Operating system Service programs</p>
+<p>Special/tailor made applications General /ready made applications System software Application software</p>
+<p>Software Communication programs</p>
+<p>Intro to Computer Chapter 3 Software Components Page 2 3.3. System Software Systems software: Also called Operating Systems (OS) are programs with associated documentation that controls the way the computer operates or provide facilities that extend the general capabilities of the system. System Software:- Which controls all processing activities and makes sure that the resources and the power of the computer are used in most efficient manner . The System software can categorized in to 1. Operating System 2. Language Processors ( Assemblers, Compilers, Interpreters) 3. Utilities Programs 4. Device Drivers 5. Basic Input Output system (BIOS) Classification; 1. Operating systems and control programs: a complex program and most important program that runs on a computer and which controls the operation of a computer. It perform basic tasks, such as recognizing input from the keyboard, sending output to the display screen, keeping track of files and directories on the disk, and controlling peripheral devices such as disk drives and printers. In general the operating system supervises and directs all the software components and the hardware components. Sophisticated operating system could handle multi-processors, many users and tasks simultaneously. Examples of computers operating systems are UNIX, Microsoft windows 95/98, Windows NT, Windows 2000, Windows XP, Windows Vista and Linux. 2. Language Processors Translators: used to translate programs developed using standard programming languages into machine language that is understood by the computer. There are three basic types of translators they are i. Compilers: - A compiler is a software that will convert the high level instructions into equivalent Machine level instructions at a time. ii. Interpreters:- A Interpreter is a software that will convert the high level instructions into equivalent Machine level instructions step by step. iii. Assembler:- Assembler is a software that will convert the high level instructions into equivalent Machine level instructions but here, the input programs are in assembly language. The output is in machine language. 3. Utilities Programs: systems programs that provides useful service to the users of the computer by providing facilities for performing common tasks of a routine nature. Common types includes Sort: used for sorting data Editor: also called text editors are used at a terminal and provide facilities for the creation or amendment of programs File copying: also called media conversion are used to copy data from one medium to another. Dump: used to copy the content of the main memory to an external storage device. File maintenance: program used to carry out the process of insertion/deletion of records in any file. It can also make amendments to the standing data contained in a record. Tracing and Debugging: used in conjunction with the debugging and testing of application programs. Tracing involves producing diagnostic information after obeying specified instructions so that the cycle of</p>
+<p>Intro to Computer Chapter 3 Software Components Page 3 operation can traced and errors located. Debugging is the term given to the process of locating and eliminating errors (bugs) from a program. Libraries- commonly used parts or portions of a program which can be called or included in the Anti-virus applications protect your computer from the damage that can be caused by viruses and similar programs Compression utilities make files smaller for storage (or sending over the Internet) and then return them to normal size. Data recovery utilities attempt to restore data and files that have been damaged or accidentally deleted. Disk defragmenters reorganize the data stored on disks so that it is more efficiently arranged. Firewalls prevent outsiders from accessing your computer over a network such as the Internet. 4. Device Drivers (Service Drivers) These utilities are those software programs which are provided by the manufacturer of various hard wares to perform specific tasks which are common to all data processing installations. The commonly available service utilities are: i. Device Drivers: These are special programs which are used to enhance the capability of operating systems, so that it can support many input/output devices like mouse, joysticks, printers etc. Communication programs- refer to programs that make it possible to transmit data. ii. Directory and File management Utilities: These are those software programs which are used to manage data. Database management systems (DBMS): a software that constructs, expands and maintains a database. It provides the control interface between the user and the data in a database. 5. BIOS (Basic Input/ Output System) The BIOS, or basic input/output systems is a type of software that is encoded within the computer's read-only memory (ROM) chip located on the motherboard. This is to make sure that the BIOS is never altered and to make sure that it will always be available for the central processing unit to use when the computer is first turned on. Functions of the BIOS: The most important job of the BIOS is to give the microprocessor its first instructions and to load the operating system when the computer is turned on. It then performs a POST, or Power-On Self Test. This is an inspection to check that everything in the computer is working and functioning properly. In addition, there is more than one BIOS in your computer. The one commonly referred to is the main system BIOS. However, there are other BIOS chips that can be found in many of your computer's peripherals. The system BIOS activates all of the other BIOS chips. If everything is found to be working properly during the POST, the BIOS will then try to boot the computer from the hard drive. This is the process of launching the Operating system so that you can use many different computer programs, like playing games or surfing the Internet! When you turn your computer on: 1) The first thing you see is your BIOS working 2) The BIOS checks the CMOS for the settings that you have specified for your operating system (such as background, font, etc.). CMOS is an acronym for Complementary Metal Oxide Semiconductor. It is a RAM chip that stores basic information about your computer system and your configurations. 3) The BIOS will check this to find out the type of hard drive and floppy disks in the computer, how much memory there is, etc. 4) The BIOS loads interrupt handlers, which are software that act like translators, and the device drives, which are software identifying hardware components like a keyboard, mouse, hard disk and floppy disk. It will check the ports to make sure these devices are in tact. 5) The BIOS performs the POST to make sure that everything is working properly. 6) It will display system settings. 3.4 Functions of OS</p>
+<p>Intro to Computer Chapter 3 Software Components Page 4 Operating System :- Which is set of programs that controls and support hardware and provide various services which are used for better performance of computer . Operating system hides the hardware from the user. The major functions of O.S are 3.4.1. Process Management The CPU executes a large number of programs. While its main concern is the execution of user programs, the CPU is also needed for other system activities. These activities are called processes. A process is a program in execution. The operating system is responsible for the following activities in connection with processes managed. a) The creation and deletion of both user and system processes b) The suspension and resumption of processes. c) The provision of mechanisms for process synchronization d) The provision of mechanisms for deadlock handling. 3.4.2 Memory Management Memory is central to the operation of a modern computer system. Memory is a large array of words or bytes, each with its own address. Interaction is achieved through a sequence of reads or writes of specific memory address. The CPU fetches from and stores in memory. In order for a program to be executed it must be mapped to absolute addresses and loaded in to memory. In order to improve both the utilization of CPU and the speed of the computer's response to its users, several processes must be kept in memory. The operating system is responsible for the following activities in connection with memory management. a) Keep track of which parts of memory are currently being used and by whom. b) Decide which processes are to be loaded into memory when memory space becomes available. c) Allocate and de-allocate memory space as needed. d) Secondary Storage Management 3.4.3. Secondary Storage Management The main purpose of a computer system is to execute programs. These programs, together with the data they access, must be in main memory during execution. Since the main memory is too small to permanently accommodate all data and program, the computer system must provide secondary storage to backup main memory. Most modem computer systems use disks as the primary on-line storage of information, of both programs and data. The operating system is responsible for the following activities in connection with disk management a) Free space management b) Storage allocation c) Disk scheduling. 3.4.4 Input Output System Input/output management One of the purposes of an operating system is to hide the peculiarities of specific hardware devices from the user. For example, in UNIX, the peculiarities of Input/Output devices are hidden from the bulk of the operating system itself by the INPUT/OUTPUT system. The Input/Output system consists of: a) A buffer caching system b) A general device driver code c) Drivers for specific hardware devices. Only the device driver knows the peculiarities of a specific device. 3.4.5. File Management A file is a collection of related information defined by its creator. File management is one of the most visible services of an operating system. Computers can store information in several different physical forms; magnetic tape, disk, and drum are the most common forms. Each of these devices has it own characteristics and physical organization. For convenient use of the computer system, the operating system provides a uniform logical view of</p>
+<p>Intro to Computer Chapter 3 Software Components Page 5 information storage. The operating system abstracts from the physical properties of its storage devices to define a logical storage unit, the file. Files are mapped, by the operating system, onto physical devices. The operating system is responsible for the following activities in connection with file management: a) The creation and deletion of files b) The creation and deletion of directory c) The support of primitives for manipulating files and directories d) The mapping of files onto disk storage. e) Backup of files on stable (non volatile) storage. 3.4.6. Protection System Data Security and Integrity various mechanisms which can be used to ensure that the files, memory segment, CPU and other resources can be operated on only by those processes that have gained proper authorization from the operating system. Protection refers to a mechanism for controlling the access of programs, processes, or users to the resources defined by a computer controls to be imposed, together with some means of enforcement. An unprotected resource cannot defend against use (or misuse) by an unauthorized or incompetent user. 3.4.7. Command Interpreter System One of the most important components of an operating system is its command interpreter. The command interpreter is the primary interface between the user and the rest of the system. Many commands are given to the operating system by control statements. When a new job is started in a batch system or when a user logs-in to a time-shared system, a program which reads and interprets control statements is automatically executed. Others include; 1) Handling job transactions 2) Co-ordinating and managing peripheral devices 3) Input-Output Management 4) Maintains account of processor time for billing purposes. 5) Maintains Internal clock; Provides data and time services etc. 6) Scheduling of various tasks 7) Establishing and enforcing priorities for different jobs Operating system concepts:- User programs interact with operating system using set of extended instructions. These instructions are called various software objects that are manages by the Operating systems. The following are common in any Operating system. 1. Process 2. Files 3. System Calls 4. The shell 5. Booting Process i. Boot Strap Loader i. Check Programs ii. Monitor Program iii. Basic input/output System(BIOS) Program iv. Utility Programs v. File Maintenance Programs</p>
+<p>Intro to Computer Chapter 3 Software Components Page 6 3.5. Types of Operating Systems: Operating systems are basically capable to do all functions but The way of processing or approach of the systems may vary from one Operating systems to another. The Operating systems can be classified as Single user and Multiuser (number of users working on it at a given point of time) and Multitasking operating systems, Single user Operating systems - MSDOS Multi-user Operating System - UNIX, Linux etc Multitasking Operating System - Windows 3.6. Classification of OS Basing on the features of the operating systems and the interface provided they can be classified as User friendly Operating system :- These Operating systems provide a pleasant and easy to work environment, they are usually graphical based, where the various options are represented as icons, menus etc. Windows operating systems are some of the user friendly Operating systems. Programming friendly Operating systems:- The programmer is anyone who has fair knowledge about programming concepts and he is expected to know the computer in a detailed manner. The programmer much concerned about various utilities, functionalities, flexibility and powerful environment. UNIX, XENIX,LINUX etc. are some of the character based interfaces which are very powerful and programming friendly. 3.7. Computer User interface There are two types of interface that can be provided by the operating system. Command based Interface In a command based interface the user enters commands through an interactive terminal. The commands are entered on a prompt for example the Ms Dos prompt looks like this Once the commands are entered on the prompt a command line interpreter(CLI) identifies and executes the commands. A command based interface is quick to operate and very flexible, but the user needs to learn all the commands and type them in correctly. Examples operating systems that use command based interface are Ms DOS and UNIX. Graphical user interface A graphical user interface (GUI) allows the user to interact with the system using Windows, Icons, Menus, and Pointers to control the operating system. Icons represent programs, groups of programs, folders, devices and files. Instead of typing a command or file name, selection is achieved by moving a pointer with a mouse and clicking a mouse button. Windows is a Graphical user interface based operating system.</p>
+<p>Intro to Computer Chapter 3 Software Components Page 7 The GUI has many advantages such as; a) GUIs are easier for the novice user because they are more intuitive b) The graphical symbols represent familiar objects such as a garbage bin c) Only valid options are available to avoid confusing the user d) No need to memorize commands e) Help is available online showing the only relevant options Graphical user interface has some disadvantages such as a) GUI require more memory b) They require faster processors and better graphics display c) For experienced users they appear slow to operate because they require more operations for simple tasks. 3.8. Application Software Applications Software allows you to perform a particular task or solve a specific problem. A word processor is the most widely used example of applications software; it can be used to create a letter or memo or anything else you need to type. Other examples include games, spreadsheets, tax preparation programs, typing tutor, etc. User application software; Custom software / programs with associated documentations designed and developed to specifically to carry out particular task. Application packages: Prewritten commercial software purchased in stores most often, personal computers utilize packaged software. Application packages are of major importance to small computer-system users who do not have the necessary resources or expertise to produce their own software. Advantages includes; Saves programming efforts and expense as the development costs are effectively shared between the purchasers. Use gets a well-tried and tested program. Relatively quick implementation results. Disadvantages Purchaser have no direct control over the package. Packages usually developed to meet general needs and may not be ideal to a particular customer. Sometimes a lot of customization of the software is required to meet the unique needs of a customer. The most important applications software categories included in office suites are described in the table below:</p>
+<p>Intro to Computer Chapter 3 Software Components Page 8 Software Category Function Word Processor Provides the tools for entering and revising text, adding graphical elements, formatting and printing documents. Spreadsheets Provides the tools for working with numbers and allows you to create and edit electronic spreadsheets in managing and analyzing information. Database Management Provides the tools for management of a collection of interrelated facts. Data can be stored, updated, manipulated, retrieved, and reported in a variety of ways. Presentation Graphics Provides the tools for creating graphics that represent data in a visual, easily understood format. Communication Software Provides the tools for connecting one computer with another to enable sending and receiving information and sharing files and resources. Internet Browser Provides access to the Internet through a service provider by using a graphical interface. o General/ready made Software is developed to perform a variety of tasks, usually determined by use. Such software can be customized by user to achieve specific goals e.g. ms office which is a suit of programs performing a variety of tasks e.g. word processing for producing documents, database for storing, retrieving and manipulating data and various calculations on spreadsheets. General purpose programs are discussed below; Word processing applications. Writing tasks previously done on typewriters with considerable effort can now be easily completed with word-processing software. Documents can be easily edited and formatted. Revisions can be made by deleting (cutting), inserting, moving (cutting and pasting), and copying data. Documents can be stored (saved) and opened again for revisions and/or printing. Many styles and sizes of fonts are available to make the document attractive. Example: MS Word, Word Pad etc. Spreadsheet applications. spreadsheet software permits performance of an almost endless variety of quantitative tasks such as budgeting, keeping track of inventory, preparing financial reports, or manipulating numbers in any fashion, such as averaging each of ten departmental monthly sales over a six-month period. A spreadsheet contains cells, the intersection of rows and columns. Each cell contains a value keyed in by the user. Cells also contain formulas with many capabilities, such as adding, multiplying, dividing, subtracting, averaging, or even counting. An outstanding feature is a spreadsheet's ability to recalculate automatically. If one were preparing a budget, for example, and wanted to change a variable such as an increase in salary or a change in amount of car payments, the formulas would automatically recalculate the affected items and the totals.. Example: Excel, Lotus1-2-3 etc. Database software: A database contains a list of information items that are similar in format and/or nature. An example is a phone book that lists a name, address, and phone number for each entry. Once stored in a database, information can be retrieved in several ways, using reports and queries. For example, all the names listed for a given area code could be printed out and used for a commercial mailing to that area. Examples of database software is Ms Access, Dbase, Oracle etc. Presentation software: for making slide shows. Allows users to create visual presentation A speaker may use presentation software to organize a slide show for an audience. Text, graphics, sound, and movies can easily be included in the presentation. An added feature is that the slide show may be enhanced by</p>
+<p>Intro to Computer Chapter 3 Software Components Page 9 inclusion of handouts with two to six slides printed on a page. The page may be organized to provide space for notes to be written in by the audience as the presentation ensues. An example of this is Power Point. Preparation of the software is simplified by the use of 'wizards' that walk the user through the creation of the presentation. Desktop publishing software: This software permits the user to prepare documents by using both word-processing devices and graphics. Desktop publishing software uses word-processing software, with all its ease of entering and revising data, and supplements it with sophisticated visual features that stem from graphics software. For example, one can enhance a printed message with virtually any kind of illustration, such as drawings, paintings, and photographs. . Examples of Desktop publishing software is PageMaker, Corel Draw, and Ms Publisher Multimedia applications for creating video and music. Allows users to create image, audio, video etc. Example: Real Player, Media Player etc. Activity management programs like calendars and address books NB: Nowadays most of the general purpose software is being sold as a complete software suites such as Microsoft office or Lotus SmartSuite. These suites offer four or more software products packaged together at a much lower price than buying the packages separately. Software Suites A suite is a collection of related software packages, such as Microsoft Office (which includes Word, Excel, PowerPoint, etc.) A group of programs that are sold as a package to solve common problems. Although there are suites for graphics, mathematics and other applications, the most popular are &quot;office suites.&quot; Also known as &quot;productivity suites,&quot; they are a set of basic business programs designed with a uniform user interface and common functions such as spell checking. The primary programs are word processing, spreadsheet, presentation graphics, database and e-mail, although each suite has its own mix, and a variety of other programs and utilities may also be included. Some of the programs may be for sale as individual products Integrated packages Software that combines several applications in one program, typically providing at least word processing, spreadsheet and database management. Presentation graphics, page layout, paint, calendar, address book, e-mail and other applications may also be included. All programs in an integrated package are accessed via a common launching pad. Microsoft Works and AppleWorks are two primary examples of integrated software packages. o Tailor made/special purpose software Tailor-made computer system refers to computer application developed by in-house IT personnel or outside software house according to specific user requirements in a firm. They are developed for given purpose e.g. Payroll system, stock control system etc. 4.9. Chapter Review Questions 1. Which of the following is not General Purpose software? (a) Stock Control (b) Word Processing (c) Internet software (d) Presentation 2. Which of the following is not part of the Ms. Office suite? (a) Ms Word (b) Ms Access (c) Outlook (d) Ms QuickBooks 3. Which of the following is not an operating system (a) Windows XP (b) Windows Explorer (c) Ms Dos (d) Linux 4. Which of the software below would assist a secretary in preparing a report for an annual general meeting?</p>
+<p>Intro to Computer Chapter 3 Software Components Page 10 (a) Ms Word (b) Ms Access (c) Outlook (d) Ms QuickBooks 5. Which of the software below would assist a salesman in recording daily sales for different items for which he needs totals among other analysis? (a) Ms Word (b) Ms Access (c) Outlook (d) Ms Excel</p>
+<h2 id="active-recall">Active recall</h2>
+<div class="steps"><div class="steps-title">Worked solution — reveal it step by step</div><div class="step"><button type="button" class="step-head"><span class="step-no">1</span><span class="step-name">Retrieval practice</span></button><div class="step-body"></div></div><div class="step"><button type="button" class="step-head"><span class="step-no">2</span><span class="step-name">Step 2</span></button><div class="step-body"><p>Close or cover the notes. Write the key idea, method, or definitions you remember.</p>
+</div></div><div class="step"><button type="button" class="step-head"><span class="step-no">3</span><span class="step-name">Step 3</span></button><div class="step-body"><p>Reopen the notes and correct your recall in a different color. Add weak points to the progress tracker.</p>
+</div></div><div class="steps-tools"><button type="button" class="steps-all">Reveal all steps</button></div></div>
+<div class="practice-links"><span>Practise this topic:</span><a href="../practice/QUESTION_BANK.html">Question bank</a></div>
+
+  </article>
+<nav class="pager"><a class="prev" href="../notes/02_computer-hardware-components.html"><span class="dir">&larr; Previous</span><span class="name">02 · Computer Hardware Components</span></a><a class="next" href="../notes/04_windows-and-operating-systems.html"><span class="dir">Next &rarr;</span><span class="name">04 · Windows and Operating Systems</span></a></nav>
+  <footer class="foot">
+    CSC 111 — Introduction to Computer Systems. Source-based study notes.
+  </footer>
+</main>
+<aside class="toc">
+  <div class="toc-title">On this page</div>
+  <a href="#learning-checks">Learning checks</a><a href="#course-notes">Course notes</a><a href="#active-recall">Active recall</a>
+</aside>
+</div>
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-modal" role="dialog" aria-label="Search">
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+      <input id="searchInput" type="search" placeholder="Search every page, section and quiz&hellip;" autocomplete="off" aria-label="Search all pages">
+      <kbd>Esc</kbd>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+    <div class="search-foot"><span>&uarr;&darr; choose</span><span>Enter open</span><span>Esc close</span></div>
+  </div>
+</div>
+<div class="findbar" id="findBar" hidden>
+  <div class="find-inner">
+    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7V5h16v2M9 20h6M12 5v15"></path></svg>
+    <input id="findInput" type="search" placeholder="Find on this page&hellip;" autocomplete="off" aria-label="Find on this page">
+    <span class="find-count" id="findCount"></span>
+    <button class="mini-btn" id="findPrev" title="Previous match" aria-label="Previous match">&uarr;</button>
+    <button class="mini-btn" id="findNext" title="Next match" aria-label="Next match">&darr;</button>
+    <button class="mini-btn" id="findClose" title="Close (Esc)" aria-label="Close find">&times;</button>
+  </div>
+</div>
+<script src="../assets/search-index.js"></script>
+<script>
+(function () {
+  var root = document.documentElement;
+  try {
+    var saved = localStorage.getItem('csc111-theme');
+    if (saved) root.setAttribute('data-theme', saved);
+  } catch (e) {}
+
+  var btn = document.getElementById('themeBtn');
+  if (btn) btn.addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    btn.textContent = next === 'dark' ? '\u2600' : '\u263D';
+    try { localStorage.setItem('csc111-theme', next); } catch (e) {}
+  });
+
+  var bar = document.getElementById('progress');
+  if (bar) window.addEventListener('scroll', function () {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+  }, { passive: true });
+
+  // highlight the current section in the right-hand table of contents
+  var links = [].slice.call(document.querySelectorAll('.toc a'));
+  if (links.length) {
+    var heads = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+    window.addEventListener('scroll', function () {
+      var best = -1;
+      for (var i = 0; i < heads.length; i++) {
+        if (heads[i] && heads[i].getBoundingClientRect().top < 120) best = i;
+      }
+      links.forEach(function (a, i) { a.classList.toggle('active', i === best); });
+    }, { passive: true });
+  }
+
+  // on phones, start with the contents menu collapsed
+  var det = document.querySelector('.nav-details');
+  if (det && window.innerWidth < 1000) det.removeAttribute('open');
+
+  // ---- interactive checklist -------------------------------------------
+  var pageId  = document.body.getAttribute('data-page') || location.pathname;
+  var checks  = [].slice.call(document.querySelectorAll('.task-check'));
+  var countEl = document.getElementById('checkCount');
+  var resetBtn = document.getElementById('resetChecks');
+
+  function checkKey(el) { return 'csc111:task:' + pageId + ':' + el.getAttribute('data-task'); }
+  function updateCount() {
+    if (!countEl) return;
+    var done = checks.filter(function (c) { return c.checked; }).length;
+    countEl.textContent = done + ' / ' + checks.length + ' done';
+    countEl.classList.toggle('all', checks.length > 0 && done === checks.length);
+  }
+  checks.forEach(function (c) {
+    try { if (localStorage.getItem(checkKey(c)) === '1') c.checked = true; } catch (e) {}
+    c.addEventListener('change', function () {
+      try { localStorage.setItem(checkKey(c), c.checked ? '1' : '0'); } catch (e) {}
+      updateCount();
+    });
+  });
+  updateCount();
+  if (resetBtn) resetBtn.addEventListener('click', function () {
+    checks.forEach(function (c) {
+      c.checked = false;
+      try { localStorage.removeItem(checkKey(c)); } catch (e) {}
+    });
+    updateCount();
+  });
+
+  // ---- fill-in blanks ---------------------------------------------------
+  var blanks = [].slice.call(document.querySelectorAll('input.blank'));
+  blanks.forEach(function (b) {
+    var k = 'csc111:blank:' + pageId + ':' + b.getAttribute('data-blank');
+    try {
+      var v = localStorage.getItem(k);
+      if (v !== null) b.value = v;
+    } catch (e) {}
+    b.addEventListener('input', function () {
+      try { localStorage.setItem(k, b.value); } catch (e) {}
+      if (b.getAttribute('data-kind') === 'date') updateDays();
+    });
+  });
+
+  function updateDays() {
+    var date = document.querySelector('input.blank[data-kind="date"]');
+    var days = document.querySelector('input.blank[data-kind="days"]');
+    if (!date || !days) return;
+    if (!date.value) { days.value = ''; return; }
+    var d = new Date(date.value + 'T00:00:00');
+    if (isNaN(d.getTime())) { days.value = ''; return; }
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    days.value = String(Math.round((d - today) / 86400000));
+  }
+  updateDays();
+
+  // ---- mark as done + progress panel -----------------------------------
+  var doneBtn = document.getElementById('markDone');
+  var doneKey = 'csc111:done:' + pageId;
+  function isDone() { try { return localStorage.getItem(doneKey) === '1'; } catch (e) { return false; } }
+  function paintDone() {
+    if (!doneBtn) return;
+    doneBtn.textContent = isDone() ? '\u2713 Done' : 'Mark as done';
+    doneBtn.classList.toggle('is-done', isDone());
+  }
+  if (doneBtn) doneBtn.addEventListener('click', function () {
+    try { localStorage.setItem(doneKey, isDone() ? '0' : '1'); } catch (e) {}
+    paintDone();
+    renderPanel();
+  });
+  paintDone();
+
+  var panel = document.getElementById('donePanel');
+  var pages = [];
+  try { pages = JSON.parse(document.body.getAttribute('data-pages') || '[]'); } catch (e) {}
+  function renderPanel() {
+    if (!panel || !pages.length) return;
+    panel.innerHTML = '';
+    var n = 0;
+    pages.forEach(function (p) {
+      try { if (localStorage.getItem('csc111:done:' + p.key) === '1') n++; } catch (e) {}
+    });
+    var head = document.createElement('p');
+    head.className = 'done-summary';
+    head.textContent = n + ' / ' + pages.length + ' pages marked done';
+    panel.appendChild(head);
+
+    var list = document.createElement('ul');
+    list.className = 'done-list';
+    pages.forEach(function (p) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = p.href;
+      a.textContent = p.label;
+      var s = document.createElement('span');
+      var d = false;
+      try { d = localStorage.getItem('csc111:done:' + p.key) === '1'; } catch (e) {}
+      s.className = 'done-flag' + (d ? ' yes' : '');
+      s.textContent = d ? '\u2713 done' : 'not done';
+      li.appendChild(a);
+      li.appendChild(s);
+      list.appendChild(li);
+    });
+    panel.appendChild(list);
+  }
+  renderPanel();
+
+  // ---- multiple-choice quizzes -----------------------------------------
+  var quiz = document.querySelector('.quiz');
+  if (quiz) {
+    var quizId = quiz.getAttribute('data-quiz');
+    var total  = parseInt(quiz.getAttribute('data-total'), 10) || 0;
+    var correct = 0;
+    var answered = 0;
+    var bestKey = 'csc111:quiz:' + quizId;
+    var nowEl = quiz.querySelector('.quiz-now');
+    var bestEl = quiz.querySelector('.quiz-best');
+
+    function readBest() {
+      try { return parseInt(localStorage.getItem(bestKey) || '0', 10) || 0; } catch (e) { return 0; }
+    }
+    function paintBest() {
+      if (bestEl) bestEl.textContent = 'Best: ' + readBest() + ' / ' + total;
+    }
+    paintBest();
+
+    [].slice.call(quiz.querySelectorAll('.quiz-q')).forEach(function (q) {
+      var answer = parseInt(q.getAttribute('data-answer'), 10);
+      var feedback = q.querySelector('.quiz-feedback');
+      var why = q.querySelector('.quiz-why');
+      var opts = [].slice.call(q.querySelectorAll('.quiz-opt'));
+      opts.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (q.classList.contains('answered')) return;
+          q.classList.add('answered');
+          var pick = parseInt(btn.getAttribute('data-i'), 10);
+          opts.forEach(function (b) {
+            b.disabled = true;
+            if (parseInt(b.getAttribute('data-i'), 10) === answer) b.classList.add('correct');
+          });
+          if (pick === answer) {
+            correct++;
+            feedback.className = 'quiz-feedback good';
+          } else {
+            btn.classList.add('wrong');
+            feedback.className = 'quiz-feedback bad';
+          }
+          feedback.textContent = (pick === answer ? 'Correct. ' : 'Not quite. ') + (why ? why.textContent : '');
+          feedback.hidden = false;
+          answered++;
+          if (nowEl) nowEl.textContent = correct + ' / ' + total;
+          if (answered === total) {
+            var best = readBest();
+            if (correct > best) {
+              try { localStorage.setItem(bestKey, String(correct)); } catch (e) {}
+              paintBest();
+            }
+          }
+        });
+      });
+    });
+
+    var retry = quiz.querySelector('.quiz-retry');
+    if (retry) retry.addEventListener('click', function () {
+      correct = 0;
+      answered = 0;
+      if (nowEl) nowEl.textContent = '0 / ' + total;
+      [].slice.call(quiz.querySelectorAll('.quiz-q')).forEach(function (q) {
+        q.classList.remove('answered');
+        var f = q.querySelector('.quiz-feedback');
+        f.hidden = true;
+        f.textContent = '';
+        f.className = 'quiz-feedback';
+        [].slice.call(q.querySelectorAll('.quiz-opt')).forEach(function (b) {
+          b.disabled = false;
+          b.classList.remove('correct', 'wrong');
+        });
+      });
+    });
+  }
+
+  // print shows the answers so the PDF is a complete revision sheet
+  window.addEventListener('beforeprint', function () {
+    [].slice.call(document.querySelectorAll('details.reveal')).forEach(function (d) {
+      d.setAttribute('data-was-open', d.open ? '1' : '0');
+      d.open = true;
+    });
+  });
+  window.addEventListener('afterprint', function () {
+    [].slice.call(document.querySelectorAll('details.reveal')).forEach(function (d) {
+      if (d.getAttribute('data-was-open') === '0') d.open = false;
+    });
+  });
+})();
+</script>
+<script>
+(function () {
+  var SITE_ROOT = '../';
+
+  // ---- flip cards ----------------------------------------------------------
+  [].slice.call(document.querySelectorAll('.flipcard')).forEach(function (card) {
+    card.addEventListener('click', function () { card.classList.toggle('flipped'); });
+  });
+
+  // ---- inline multiple choice ----------------------------------------------
+  [].slice.call(document.querySelectorAll('.mcq')).forEach(function (box) {
+    var fb = box.querySelector('.mcq-feedback');
+    [].slice.call(box.querySelectorAll('.mcq-opt')).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (box.classList.contains('answered')) return;
+        box.classList.add('answered');
+        var correct = btn.getAttribute('data-correct') === 'true';
+        [].slice.call(box.querySelectorAll('.mcq-opt')).forEach(function (b) {
+          b.disabled = true;
+          if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
+        });
+        if (!correct) btn.classList.add('wrong');
+        var why = btn.getAttribute('data-why') || '';
+        fb.textContent = (correct ? 'Correct. ' : 'Not quite. ') + why;
+        fb.className = 'mcq-feedback ' + (correct ? 'good' : 'bad');
+        fb.hidden = false;
+      });
+    });
+  });
+
+  // ---- true / false ----------------------------------------------------------
+  [].slice.call(document.querySelectorAll('.tf')).forEach(function (box) {
+    var fb = box.querySelector('.tf-feedback');
+    var answer = box.getAttribute('data-answer') === 'false' ? 'false' : 'true';
+    [].slice.call(box.querySelectorAll('.tf-btn')).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (box.classList.contains('answered')) return;
+        box.classList.add('answered');
+        var correct = btn.getAttribute('data-pick') === answer;
+        [].slice.call(box.querySelectorAll('.tf-btn')).forEach(function (b) {
+          b.disabled = true;
+          if (b.getAttribute('data-pick') === answer) b.classList.add('correct');
+        });
+        if (!correct) btn.classList.add('wrong');
+        fb.textContent = (correct ? 'Correct. ' : 'Not quite. ') + (box.getAttribute('data-why') || '');
+        fb.className = 'tf-feedback ' + (correct ? 'good' : 'bad');
+        fb.hidden = false;
+      });
+    });
+  });
+
+  // ---- step-by-step solutions -------------------------------------------------
+  [].slice.call(document.querySelectorAll('.steps')).forEach(function (box) {
+    [].slice.call(box.querySelectorAll('.step-head')).forEach(function (h) {
+      h.addEventListener('click', function () { h.parentNode.classList.toggle('open'); });
+    });
+    var all = box.querySelector('.steps-all');
+    if (all) all.addEventListener('click', function () {
+      [].slice.call(box.querySelectorAll('.step')).forEach(function (s) { s.classList.add('open'); });
+      all.disabled = true;
+      all.textContent = 'All steps revealed';
+    });
+  });
+
+  // ---- full-text search overlay ------------------------------------------------
+  var INDEX = window.SEARCH_INDEX || [];
+  var overlay = document.getElementById('searchOverlay');
+  var sInput = document.getElementById('searchInput');
+  var sResults = document.getElementById('searchResults');
+  var sSel = -1;
+
+  function escHtml(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function runSearch(query) {
+    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t; });
+    if (!terms.length) return [];
+    var ql = query.toLowerCase();
+    var hits = [];
+    for (var n = 0; n < INDEX.length; n++) {
+      var e = INDEX[n];
+      var t = (e.t || '').toLowerCase();
+      var h = (e.h || '').toLowerCase();
+      var x = (e.x || '').toLowerCase();
+      var score = 0, ok = true, firstPos = -1;
+      for (var i = 0; i < terms.length; i++) {
+        var term = terms[i];
+        var pt = t.indexOf(term), ph = h.indexOf(term), px = x.indexOf(term);
+        if (pt < 0 && ph < 0 && px < 0) { ok = false; break; }
+        if (pt >= 0) score += 8;
+        if (ph >= 0) score += 5;
+        if (px >= 0) { score += 1; if (firstPos < 0) firstPos = px; }
+      }
+      if (!ok) continue;
+      if (ql.length > 3 && x.indexOf(ql) >= 0) score += 6;
+      if (h.indexOf(ql) >= 0) score += 4;
+      hits.push({ e: e, score: score, pos: firstPos });
+    }
+    hits.sort(function (a, b) { return b.score - a.score; });
+    return hits.slice(0, 24);
+  }
+
+  function snippetHtml(e, pos, query) {
+    var x = e.x || '';
+    if (pos < 0) pos = 0;
+    var start = Math.max(0, pos - 60);
+    var end = Math.min(x.length, pos + 150);
+    var raw = (start > 0 ? '\u2026' : '') + x.substring(start, end) + (end < x.length ? '\u2026' : '');
+    var html = escHtml(raw);
+    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t; })
+      .sort(function (a, b) { return b.length - a.length; });
+    for (var i = 0; i < terms.length; i++) {
+      var t = terms[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      html = html.replace(new RegExp('(' + t + ')', 'gi'), '<mark>$1</mark>');
+    }
+    return html;
+  }
+
+  function addHit(hit, query) {
+    var e = hit.e;
+    var a = document.createElement('a');
+    a.className = 'sr-item';
+    a.href = SITE_ROOT + e.u + (e.i ? '#' + e.i : '');
+    var meta = e.g + (e.h ? ' \u00b7 ' + e.h : '');
+    a.innerHTML =
+      '<span class="sr-meta">' + escHtml(meta) + '</span>' +
+      '<span class="sr-title">' + escHtml(e.t) + '</span>' +
+      (query ? '<span class="sr-snippet">' + snippetHtml(e, hit.pos, query) + '</span>' : '');
+    a.addEventListener('click', function () { closeSearch(); });
+    sResults.appendChild(a);
+  }
+
+  function paintSearch(query) {
+    sResults.innerHTML = '';
+    if (!query.trim()) {
+      var pages = [];
+      for (var n = 0; n < INDEX.length; n++) {
+        if (!INDEX[n].h) pages.push({ e: INDEX[n], pos: -1 });
+      }
+      pages.slice(0, 14).forEach(function (hit) { addHit(hit, ''); });
+      return;
+    }
+    var hits = runSearch(query);
+    if (!hits.length) {
+      sResults.innerHTML = '<div class="sr-empty">Nothing matches &ldquo;' + escHtml(query) + '&rdquo;. Try a shorter word.</div>';
+      return;
+    }
+    hits.forEach(function (hit) { addHit(hit, query); });
+  }
+
+  function paintSel() {
+    var items = [].slice.call(sResults.querySelectorAll('.sr-item'));
+    items.forEach(function (el, i) { el.classList.toggle('active', i === sSel); });
+    if (sSel >= 0 && items[sSel]) items[sSel].scrollIntoView({ block: 'nearest' });
+  }
+
+  function openSearch() {
+    if (!overlay) return;
+    overlay.hidden = false;
+    sInput.value = '';
+    paintSearch('');
+    sInput.focus();
+  }
+  function closeSearch() { if (overlay) overlay.hidden = true; }
+
+  if (overlay && sInput && sResults) {
+    document.getElementById('searchBtn').addEventListener('click', openSearch);
+    overlay.addEventListener('mousedown', function (ev) {
+      if (ev.target === overlay) closeSearch();
+    });
+    sInput.addEventListener('input', function () { paintSearch(sInput.value); });
+    sInput.addEventListener('keydown', function (ev) {
+      var items = [].slice.call(sResults.querySelectorAll('.sr-item'));
+      if (ev.key === 'ArrowDown') { ev.preventDefault(); if (sSel < items.length - 1) sSel++; paintSel(); }
+      else if (ev.key === 'ArrowUp') { ev.preventDefault(); if (sSel > 0) sSel--; paintSel(); }
+      else if (ev.key === 'Enter') {
+        ev.preventDefault();
+        var target = items[sSel >= 0 ? sSel : 0];
+        if (target) location.href = target.href;
+      }
+    });
+  }
+
+  // ---- find on this page --------------------------------------------------------
+  var findBar = document.getElementById('findBar');
+  var fInput = document.getElementById('findInput');
+  var fCount = document.getElementById('findCount');
+  var fMarks = [];
+  var fCur = -1;
+  var fTimer = null;
+
+  function collectTextNodes(el, out) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p = n.parentNode;
+        if (p && p.closest && p.closest('script,style,mark.find-m')) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    while (walker.nextNode()) out.push(walker.currentNode);
+    return out;
+  }
+
+  function clearFind() {
+    [].slice.call(document.querySelectorAll('mark.find-m')).forEach(function (m) {
+      var parent = m.parentNode;
+      if (!parent) return;
+      parent.replaceChild(document.createTextNode(m.textContent), m);
+      parent.normalize();
+    });
+    fMarks = [];
+    fCur = -1;
+  }
+
+  function paintFindCount() {
+    if (!fCount) return;
+    if (fMarks.length) {
+      fCount.textContent = (fCur + 1) + ' / ' + fMarks.length;
+    } else {
+      fCount.textContent = (fInput.value.trim().length >= 2 ? 'no match' : '');
+    }
+  }
+
+  function showFind(i) {
+    [].slice.call(document.querySelectorAll('mark.find-m.current')).forEach(function (m) {
+      m.classList.remove('current');
+    });
+    if (i >= 0 && i < fMarks.length) {
+      fCur = i;
+      var m = fMarks[i];
+      m.classList.add('current');
+      m.scrollIntoView({ block: 'center' });
+    }
+    paintFindCount();
+  }
+
+  function doFind(q) {
+    clearFind();
+    if (q.trim().length < 2) { paintFindCount(); return; }
+    var content = document.querySelector('.content') || document.body;
+    var nodes = collectTextNodes(content, []);
+    var ql = q.toLowerCase();
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      var lower = text.toLowerCase();
+      var idx = lower.indexOf(ql);
+      if (idx < 0) return;
+      var frag = document.createDocumentFragment();
+      var pos = 0;
+      while (idx >= 0) {
+        frag.appendChild(document.createTextNode(text.substring(pos, idx)));
+        var mk = document.createElement('mark');
+        mk.className = 'find-m';
+        mk.textContent = text.substring(idx, idx + ql.length);
+        frag.appendChild(mk);
+        fMarks.push(mk);
+        pos = idx + ql.length;
+        idx = lower.indexOf(ql, pos);
+      }
+      frag.appendChild(document.createTextNode(text.substring(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+    if (fMarks.length) showFind(0); else paintFindCount();
+  }
+
+  function openFind() {
+    if (!findBar) return;
+    findBar.hidden = false;
+    fInput.focus();
+    fInput.select();
+  }
+  function closeFind() {
+    if (!findBar) return;
+    findBar.hidden = true;
+    clearFind();
+    paintFindCount();
+  }
+
+  if (findBar && fInput) {
+    document.getElementById('findBtn').addEventListener('click', openFind);
+    document.getElementById('findClose').addEventListener('click', closeFind);
+    document.getElementById('findPrev').addEventListener('click', function () {
+      if (fMarks.length) showFind((fCur - 1 + fMarks.length) % fMarks.length);
+    });
+    document.getElementById('findNext').addEventListener('click', function () {
+      if (fMarks.length) showFind((fCur + 1) % fMarks.length);
+    });
+    fInput.addEventListener('input', function () {
+      if (fTimer) clearTimeout(fTimer);
+      fTimer = setTimeout(function () { doFind(fInput.value); }, 150);
+    });
+    fInput.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') {
+        ev.preventDefault();
+        if (fMarks.length) showFind((fCur + 1) % fMarks.length);
+      } else if (ev.key === 'Escape') {
+        closeFind();
+      }
+    });
+  }
+
+  // ---- global keyboard shortcuts --------------------------------------------------
+  document.addEventListener('keydown', function (ev) {
+    var inField = /^(input|textarea|select)$/i.test((ev.target && ev.target.tagName) || '');
+    if ((ev.ctrlKey || ev.metaKey) && (ev.key === 'k' || ev.key === 'K')) {
+      ev.preventDefault();
+      if (overlay && overlay.hidden) openSearch(); else closeSearch();
+    } else if (ev.ctrlKey && ev.altKey && (ev.key === 'f' || ev.key === 'F')) {
+      ev.preventDefault();
+      if (findBar && findBar.hidden) openFind(); else closeFind();
+    } else if (ev.key === 'Escape') {
+      if (overlay && !overlay.hidden) closeSearch();
+      else if (findBar && !findBar.hidden) closeFind();
+    } else if (ev.key === '/' && !inField && overlay && overlay.hidden) {
+      ev.preventDefault();
+      openSearch();
+    }
+  });
+})();
+</script>
+</body>
+</html>

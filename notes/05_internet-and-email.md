@@ -1,0 +1,51 @@
+# 05 · Internet and Email
+
+> Source: Chapter 5 - Internet and Email Application.txt. This page is searchable, and the checklist state is saved in this browser.
+
+## Learning checks
+
+- [ ] Identify the key terms and explain them without looking.
+- [ ] Summarize the main idea in your own words.
+- [ ] Work through an example or answer a related question.
+
+## Course notes
+
+COM 111 - Chapter 4: Internet & Email Application Page 1 Com 111 Computer Applications Chapter 5: Internet and E-mail 5.1. Internet The Internet is a global system of interconnected computer networks
+
+that use the standard Internet protocol suite (often called TCP/IP, although not all applications use TCP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. The Internet carries an extensive range of information resources and services, such as the inter-
+
+linked hypertext documents of the World Wide Web (WWW) and the infrastructure to support email. 5.2. Network A computer network is the infrastructure that allows two or more computers (called hosts) to communicate with each other. Definition
+
+so as to be able to exchange data. -Each of the devices on the network can be thought of as a node; each node has a unique address. A computer network, often simply referred to as a network, is a collection of hardware components and computers interconnected by communication channels that allow sharing of resources and information. Advantages of Networks a) It allows the sharing of information held on disk drives to be accessed by all permitted users.
+
+b) It allows the sharing of resources such as printers, scanners and disk storage. c) Application programs can be stored on one computer and make them available to all users rather than having copies individually installed on each computer. d) Allows electronic messages to be sent between the users. e) It allows the connection of different types of computer which can communicate with each other. Advantages of the internet a)
+
+It offers different ways of communicating and innovations are going on to make it faster, more reliable. b) The Internet is a virtual treasure trove of information. Any kind of information on any topic under the sun is available on the Internet. c) It is a source of entertainment where users can play computer games, visiting chat rooms or just surfing the Web. d)
+
+tickets for your favorite movies etc. e) Business (E-commerce) can be transacted over the internet. Disadvantages of the internet a) Personal information such as name, address, credit card number etc. can be stolen by other culprits and misused. b) Unwanted e-mails in bulk (Spam), which provide no purpose and needlessly obstruct the entire system, can be sent on the internet.
+
+c) Computers attached to internet are more prone to virus attacks and they can end up into crashing your whole hard disk. d) Pornographic sites on the Internet that can be easily found by children which can corrupt their morals. e)
+
+COM 111 - Chapter 4: Internet & Email Application Page 2 5.3.Connecting to the internet Requirements for connecting to the internet a) Computer or Electronic device b) Internet service provider an internet service provider provides you with a connection to the internet and the software you will need to navigate. c) Telecommunication line a telephone line is required to connect you to the internet service provider. d) Modem a modem converts a digital signal received from a computer into an analogue signal that can be sent along ordinary telephone lines, and back to digital at the other end. e) Web browser a web browser is software used to view and download Web pages and various types of files such as text, graphics and video. Examples are Microsoft Internet Explorer or Mozilla Firefox, Google Chrome. 5.4. E-Mail (Electronic Mail) E-mail or Electronic mail is a paperless method of sending messages, notes or letters from one person to another or even many people at the same time via the Internet. E-mail is very fast compared to the normal post. E-mail messages usually take only few seconds to arrive at their destination. One can send messages anytime of the day or night and it will get delivered immediately. You need not to wait for the to look at it - even in the middle of the night. You have the privilege of sending something extra even such as a file, graphics, images etc. along with your e-mail. The biggest advantage to using e-mail is that it is cheap, especially when sending messages to other states or countries and at the same time it can be delivered to a number of people around the world. Although e-mail is faster and cheaper, it has many of the components of regular mail. It allows you to compose note, get the address of the recipient and send it. Once the mail is received and read, it can be forwarded, replied. One can even store it for later use, or delete. In e-mail even the sender can request for delivery receipt and read receipt from the recipient. 5.4.1. Features of E-mail: a) One-to-one or one-to-many communications b) Instant communications c) Physical presence of recipient is not required d) Most inexpensive mail service, 24-hours a day and seven days a week e) Encourages informal communication 5.4.2. Components of an E-mail Address As in the case of normal mail system, e-mail is also based upon the concept of a recipient address. The email address provides all of the information required to get a message to the recipient from anywhere in the world. The syntax for Emails is mailbox_name@mailprovider Mailbox is the recipient name of the mail on the destination computer, where finally the mail will be delivered.
+
+COM 111 - Chapter 4: Internet & Email Application Page 3 @ ampersand Internationally accepted symbol for all emails Mail provider the name of the Email service provider, ie the organization that is hosting the mail server Common providers include; yahoo.com, Hotmail.com, gmail.com etc Example, john@hotmail.com jane@gmail.com otieno@hotmail.com 5.5. Connecting to E-Mail 1. Double click the browser symbol to open it Symbol Browser Name Mozilla Fire-Fox Internet Explorer Google Chrome 2. Type in the name if the email provider at the Search engine prompt and then click search. Example type in Yahoo.com to search for Yahoo mail provider. 3. Click Sign in to Yahoo options to open the Yahoo.com mail Sign in form.
+
+COM 111 - Chapter 4: Internet & Email Application Page 4 4. At the Sign In form below a). Have an Email Account Enter the email User Name Enter the Email Password Click Sign In Button b). No Email Account Click the Create New Account Button 5. Enter the necessary information in the form provided use the Scroll bar to the right of the form to up and down the form. At the end of the form click the Create Account Button.
+
+COM 111 - Chapter 4: Internet & Email Application Page 5 a) Enter your First name. b) Enter your Surname c) Enter the Preferred Username (Yahoo proposes Usernames choose any if appropriate) d) Enter Password 8 32 Characters (Combine Characters, Numbers and Special Characters to make the password strong e) Click the country field and select Kenya to insert the Kenya Flag Symbol and the +254 code f) Enter your Mobile number ( leave out the first Zero) g) Enter the other required details appropriately. 5.6. Logging in to the created Email Use the Username and password to log in into your Email Account/mailbox 5.6.1. Mail Box Features
+
+COM 111 - Chapter 4: Internet & Email Application Page 6 Compose Click to open a new template for a mail Inbox Click to open the inbox to view list of the mails stored there Draft Used to store draft emails created. Sent Stores a copy of ALL sent emails Spam Stores spam mails (mail flagged or tagged as dangerous mails virus) Trash Store a copy of deleted mails Folder Creates a folder for storing mails Recent Shows recent mails New Mail Template Features To Enter the Email(s) of the recipients. If many recipients, separate the emails by a comma(,). REQUIRED CC Enter the Email to receive a copy of the email. Copied emails are expected to take action on the received mail. OPTIONAL BCC Enter the email to receive a copy of the mail just to be informed, not action required. OPTIONAL Subject A word or statement to indicate the reason / title of the email. REQUIRED
+
+COM 111 - Chapter 4: Internet & Email Application Page 7 Click to send the email Click to attach a file to the email 5.7. Forwarding Mail, Replying Mail Emails can be forward to other recipients. Select and click the relevant mail to open it To forward: Click the forward button to open a new mail template with the current mail copied into it. Type in the recipient mail address to receive the mail Click send button To Reply Click the reply to sender button Type in any comments as required Click Send button Reply to Sender Forward 5.8. Sending Mail with an attachment 1) Create the mail 2) Select attachment icon next to SEND button 3) Select the file to attach from the respective folder and then Click Open button 4) Click Send Button once the attaching process for the attachment is complete.
+
+COM 111 - Chapter 4: Internet & Email Application Page 8 5.9. Opening an Attachment A mail with an attachment will have an Attachment icon (Staple pin)as shown below 1. Double-Click the email to open it. The attachment will be place at the bottom of the letter 2. Double-click the attachment OR click Download all Link 3. Select Open with radio button. 4. Select the respective application program to open the attachment with (click down arrow to open the application to open with selection box NB the symbol associated with the file will give you a clue on the application used to create it. 5. Click OK button to proceed to open the doc with the selected application ELSE Click Cancel button to exit from the window.
+
+## Active recall
+
+:::steps
+## Retrieval practice
+---
+Close or cover the notes. Write the key idea, method, or definitions you remember.
+---
+Reopen the notes and correct your recall in a different color. Add weak points to the progress tracker.
+:::

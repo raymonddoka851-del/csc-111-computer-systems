@@ -1,0 +1,105 @@
+{
+    "course":  "CSC 111",
+    "brandMark":  "S",
+    "brandName":  "CSC 111",
+    "brandSub":  "Revision Notes",
+    "suffix":  "CSC 111 Revision",
+    "metadesc":  "Study notes for CSC 111 computer systems, hardware, software, networks and applications.",
+    "kicker":  "CSC 111 · University of Embu",
+    "heroTitle":  "Introduction to Computer Systems",
+    "heroLede":  "Course notes, interactive progress tracking, topic search and practice — built for learning from the foundations.",
+    "footer":  "CSC 111 — Introduction to Computer Systems. Source-based study notes.",
+    "repoUrl":  "https://github.com/raymonddoka851-del/csc-111-computer-systems/blob/main/",
+    "accent":  "#0891b2",
+    "accent2":  "#4f46e5",
+    "accentDark":  "#67e8f9",
+    "accent2Dark":  "#a5b4fc",
+    "store":  "csc111",
+    "quizHub":  "All quizzes",
+    "docset":  [
+                   {
+                       "md":  "START_HERE.md",
+                       "group":  "Start here",
+                       "label":  "Start here",
+                       "out":  "START_HERE.html"
+                   },
+                   {
+                       "md":  "YOUR_STUDY_PLAN.md",
+                       "group":  "Start here",
+                       "label":  "Your study plan",
+                       "out":  "YOUR_STUDY_PLAN.html"
+                   },
+                   {
+                       "md":  "CHEAT_SHEET.md",
+                       "group":  "Start here",
+                       "label":  "Cheat sheet",
+                       "out":  "CHEAT_SHEET.html"
+                   },
+                   {
+                       "md":  "PROGRESS_TRACKER.md",
+                       "group":  "Start here",
+                       "label":  "Progress tracker",
+                       "out":  "PROGRESS_TRACKER.html"
+                   },
+                   {
+                       "md":  "notes/01_computer-systems-foundations.md",
+                       "group":  "Notes",
+                       "label":  "01 · Computer Systems: Foundations",
+                       "out":  "notes/01_computer-systems-foundations.html"
+                   },
+                   {
+                       "md":  "notes/02_computer-hardware-components.md",
+                       "group":  "Notes",
+                       "label":  "02 · Computer Hardware Components",
+                       "out":  "notes/02_computer-hardware-components.html"
+                   },
+                   {
+                       "md":  "notes/03_computer-software.md",
+                       "group":  "Notes",
+                       "label":  "03 · Computer Software",
+                       "out":  "notes/03_computer-software.html"
+                   },
+                   {
+                       "md":  "notes/04_windows-and-operating-systems.md",
+                       "group":  "Notes",
+                       "label":  "04 · Windows and Operating Systems",
+                       "out":  "notes/04_windows-and-operating-systems.html"
+                   },
+                   {
+                       "md":  "notes/05_internet-and-email.md",
+                       "group":  "Notes",
+                       "label":  "05 · Internet and Email",
+                       "out":  "notes/05_internet-and-email.html"
+                   },
+                   {
+                       "md":  "notes/06_word-processing.md",
+                       "group":  "Notes",
+                       "label":  "06 · Word Processing",
+                       "out":  "notes/06_word-processing.html"
+                   },
+                   {
+                       "md":  "notes/07_spreadsheets-and-excel.md",
+                       "group":  "Notes",
+                       "label":  "07 · Spreadsheets and Excel",
+                       "out":  "notes/07_spreadsheets-and-excel.html"
+                   },
+                   {
+                       "md":  "notes/08_presentations-and-computer-networks.md",
+                       "group":  "Notes",
+                       "label":  "08 · Presentations and Computer Networks",
+                       "out":  "notes/08_presentations-and-computer-networks.html"
+                   },
+                   {
+                       "md":  "practice/QUESTION_BANK.md",
+                       "group":  "Practice",
+                       "label":  "Question bank",
+                       "out":  "practice/QUESTION_BANK.html"
+                   },
+                   {
+                       "md":  "practice/ANSWER_KEY.md",
+                       "group":  "Practice",
+                       "label":  "Answer key",
+                       "out":  "practice/ANSWER_KEY.html"
+                   }
+               ]
+}

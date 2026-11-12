@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>08 · Presentations and Computer Networks · CSC 111 Revision</title>
+<meta name="description" content="Study notes for CSC 111 computer systems, hardware, software, networks and applications.">
+<link rel="stylesheet" href="../assets/notes.css">
+<link rel="stylesheet" href="../assets/theme.css">
+</head>
+<body data-page="notes/08_presentations-and-computer-networks.html" data-pages="[{&quot;label&quot;:&quot;01 · Computer Systems: Foundations&quot;,&quot;href&quot;:&quot;01_computer-systems-foundations.html&quot;,&quot;key&quot;:&quot;notes/01_computer-systems-foundations.html&quot;},{&quot;label&quot;:&quot;02 · Computer Hardware Components&quot;,&quot;href&quot;:&quot;02_computer-hardware-components.html&quot;,&quot;key&quot;:&quot;notes/02_computer-hardware-components.html&quot;},{&quot;label&quot;:&quot;03 · Computer Software&quot;,&quot;href&quot;:&quot;03_computer-software.html&quot;,&quot;key&quot;:&quot;notes/03_computer-software.html&quot;},{&quot;label&quot;:&quot;04 · Windows and Operating Systems&quot;,&quot;href&quot;:&quot;04_windows-and-operating-systems.html&quot;,&quot;key&quot;:&quot;notes/04_windows-and-operating-systems.html&quot;},{&quot;label&quot;:&quot;05 · Internet and Email&quot;,&quot;href&quot;:&quot;05_internet-and-email.html&quot;,&quot;key&quot;:&quot;notes/05_internet-and-email.html&quot;},{&quot;label&quot;:&quot;06 · Word Processing&quot;,&quot;href&quot;:&quot;06_word-processing.html&quot;,&quot;key&quot;:&quot;notes/06_word-processing.html&quot;},{&quot;label&quot;:&quot;07 · Spreadsheets and Excel&quot;,&quot;href&quot;:&quot;07_spreadsheets-and-excel.html&quot;,&quot;key&quot;:&quot;notes/07_spreadsheets-and-excel.html&quot;},{&quot;label&quot;:&quot;08 · Presentations and Computer Networks&quot;,&quot;href&quot;:&quot;08_presentations-and-computer-networks.html&quot;,&quot;key&quot;:&quot;notes/08_presentations-and-computer-networks.html&quot;}]">
+<div class="progress" id="progress"></div>
+<div class="layout">
+<aside class="sidebar">
+  <a class="brand" href="../index.html">
+    <span class="brand-mark">S</span>
+    <span class="brand-text"><strong>CSC 111</strong><span>Revision Notes</span></span>
+  </a>
+  <details class="nav-details" open>
+    <summary>Contents</summary>
+    <div class="nav-group"><div class="nav-head">Start here</div><a href="../START_HERE.html">Start here</a><a href="../YOUR_STUDY_PLAN.html">Your study plan</a><a href="../CHEAT_SHEET.html">Cheat sheet</a><a href="../PROGRESS_TRACKER.html">Progress tracker</a></div><div class="nav-group"><div class="nav-head">Notes</div><a href="../notes/01_computer-systems-foundations.html">01 · Computer Systems: Foundations</a><a href="../notes/02_computer-hardware-components.html">02 · Computer Hardware Components</a><a href="../notes/03_computer-software.html">03 · Computer Software</a><a href="../notes/04_windows-and-operating-systems.html">04 · Windows and Operating Systems</a><a href="../notes/05_internet-and-email.html">05 · Internet and Email</a><a href="../notes/06_word-processing.html">06 · Word Processing</a><a href="../notes/07_spreadsheets-and-excel.html">07 · Spreadsheets and Excel</a><a href="../notes/08_presentations-and-computer-networks.html" class="active">08 · Presentations and Computer Networks</a></div><div class="nav-group"><div class="nav-head">Practice</div><a href="../practice/QUESTION_BANK.html">Question bank</a><a href="../practice/ANSWER_KEY.html">Answer key</a></div><div class="nav-group"><div class="nav-head">Quiz</div><a href="../quiz/index.html">All quizzes</a></div>
+  </details>
+</aside>
+<main class="main">
+  <div class="topbar">
+    <span class="crumb">Notes <b>&rsaquo;</b> 08_presentations-and-computer-networks</span>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="searchBtn" title="Search all pages (Ctrl+K)" aria-label="Search all pages">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+      </button>
+      <button class="icon-btn" id="findBtn" title="Find on this page (Ctrl+Alt+F)" aria-label="Find on this page">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7V5h16v2M9 20h6M12 5v15"></path></svg>
+      </button>
+      <button class="theme-btn" id="themeBtn" title="Switch light / dark" aria-label="Switch theme">&#9789;</button>
+    </div>
+  </div>
+  <article class="content">
+<div class="page-tools"><span class="check-count" id="checkCount">0 / 3 done</span><button type="button" class="reset-btn" id="resetChecks">Reset checklist</button><button type="button" class="done-btn" id="markDone">Mark as done</button></div>
+<h1 id="08-presentations-and-computer-networks">08 · Presentations and Computer Networks</h1>
+<blockquote><p>Source: Chapter 8   9 Presentation - Power point  Computer   Networks.txt. This page is searchable, and the checklist state is saved in this browser.</p></blockquote>
+<h2 id="learning-checks">Learning checks</h2>
+<ul>
+<li><label class="task"><input type="checkbox" class="task-check" id="task1" data-task="task1"> <span class="task-text">Identify the key terms and explain them without looking.</span></label> </li>
+<li><label class="task"><input type="checkbox" class="task-check" id="task2" data-task="task2"> <span class="task-text">Summarize the main idea in your own words.</span></label> </li>
+<li><label class="task"><input type="checkbox" class="task-check" id="task3" data-task="task3"> <span class="task-text">Work through an example or answer a related question.</span></label> </li>
+</ul>
+<h2 id="course-notes">Course notes</h2>
+<p>Presentation Power Point Page 1 COM 110 INTRODUCTION TO COMPUTER SCIENCE CHAPTER EIGHT: PRESENTATION GRAPHICS</p>
+<p>At the end of the chapter the learner shall be able to; Prepare a presentation in Microsoft PowerPoint Use pictures and objects</p>
+<p>Create organization charts using the Microsoft PowerPoint tools Create graphs using the Microsoft PowerPoint tools MS POWERPOINT</p>
+<p>INTRODUCTION What is PowerPoint? This is a complete presentation graphics package. It gives you everything you need to produce a professionally looking presentation. It enables you to express your ideas in graphics, text and objects all in one.</p>
+<p>What is presentation? eating a</p>
+<p>What is a slide? Slides are individual pages of your presentation. Slides have titles, text, drawn objects, shapes, clip arts, and visuals created with other application. Starting PowerPoint</p>
+<p>From the start menu select programs and the move to PowerPoint and click. 8.2. PowerPoint Screen menus Home Menu Insert Menu</p>
+<p>Design Menu Animation</p>
+<p>Presentation Power Point Page 2 Slide Show 8.3 CREATING A NEW PRESENTATION Creating a blank presentation 1. Power point starts with a Blank Slide 2. First slide is the Title slide( for the presentation name and presenters details) 3. Click New Slide Icon in the Home Menu to add a new slide 4. Type in the Slide Title and slide content. 5. Repeat steps 3 and 4 for each new slide. N.B: You can put as many slides as desired. 8.4 SAVING A PRESENTATION Saving a new or existing presentation to always open as a slide show. 1. Open the presentation you want to open as a slide show. 2. Click Office Button. 3. 4. 5. Click save. 8.5. ADDING AND FORMATTING TEXT Add text. Normally the easiest way to add text to a slide is to type directly into any placeholder that accommodates text. Changing the font and color of the text 1. Highlight the text to be formatted 2. From the format menu click font 3. Choose the desired font size color e.t.c 4. Click okay. Add, change or remove a bullet After you create a bulleted text, you can change the look of the bullets: their size, shape, color, e.t.c To change a bullet, you need to highlight the test associated with the bullets. You cannot highlight a bullet. 1. Highlight the text 2. In the format menu, select bullets 3. Choose from the variety of bullets and click 4. Specify things like color and the size. 5. Click okay</p>
+<p>Presentation Power Point Page 3 Adding a special text effect 1. From the insert menu move to picture 2. Move to word art and click 3. Choose the shape of the word art and click okay 4. 8.6. FORMATTING YOUR SLIDE Colors and designs are added to slides in a presentation for enhancement. They also help in capturing the attention of the audience. You can either add a background color, apply design or both. Applying background 1. Choose the slide you want to apply background (if you have several) by scrolling. 2. In the format menu choose background and click. 3. In the drop down list choose the color desired (click more colours to view more) 4. Click apply. Applying patterns, textures and pictures as backgrounds 1. Repeat steps 1 &amp; 2 in 4.1 (above) 2. 3. Click gradient, texture, pattern or picture tab. 4. Choose as desired. Applying design 1. Choose the slide you want to design. 2. In the format menu choose, apply design, and click. 3. In the resulting dialog box, choose the desired design. 4. Click apply. 8.7 WORKING WITH DIFERENT VIEWS A slide can be looked at in different angles. These views help a lot while working on your presentations. To access the views, click view from the menu bar. The most common views are: 1. Slide: Views individual slide. 2. Outline: Views all slides (outlined). NB.Graphics &amp; Text effects cannot be viewed in outline. 3. Slide sorter: Miniatures all slides in your presentation. You can animate, transit, sort etc in this view. 4. Slide show: Complete presentation is run in this view. Getting a specific slide. When you have several slides and you want a specific one, In this view Do this Slide or notes page Drag the vertical scroll bar until you get The slide. Outline Double click the slide icon. Slide sorter Double click the slide. Menu, and click slide Navigator. Change the view to black and white From the view menu click black &amp; white NB: When you run the slide show it will show color. Deleting a slide</p>
+<p>Presentation Power Point Page 4 1. Select the slide you want to delete 2. On the Edit menu, click Delete Slide 8.8 WORKING WITH OBJECTS Objects in PowerPoint could be any of the following Clip Arts Tables and graphs from other applications e.g. Excel Paint brush pictures Media clips and many more PowerPoint comes with its own set of pictures in the clip art gallery. The clip art gallery includes a wide variety of clip arts that makes it easy for you to dress up your presentation with professionally designed images. You will find everything from maps to people and from buildings to scenic backgrounds. Inserting pictures in your presentation 1. From the insert menu point to pictures 2. You can choose from the different sources i.e. clipart gallery, scanner, file etc. 3. From the source you have chosen, chose the picture and click insert. Inserting Auto Shapes 1. From the Draw menu click auto shapes 2. Move to desired category 3. Choose the shape and click 4. After the mouse pointer changes shape, click and drag at the insertion position. Working with organization chart 1. Display the slide you want to add organization chart 2. On the insert menu, move to pictures then to organization chart and click 3. 4. To return to PowerPoint, click exit &amp; return to presentation from the file menu. N.B: In the slide layout, you can choose a layout with the organization chart. 8.9. ANIMATION You can animate text, graphics sounds, movies, and other objects on your slides so as to focus on important points, control the flow of information, and add interest to your presentation. You can have each main bullet point appear independently of others, or you can have objects appear progressively, one after another. You can set up the way you want each bullet point or object to appear on your slide e.g. to fly in from the left and whether you want other bullets or objects to dim or change color when you add a new element. You also change the order of timing of your animation. Animating objects &amp; text on the slide. 1. In slide view, display the slide that has the text or objects you want to animate. 2. ab. 3. animate. 4. umber of seconds you want to elapse between the previous animation and the current one. 5. Click the effect tab. 6. If you are animating a chart in Microsoft Graph, click the Chart Efforts tab. 7. 8. Click the timing tab and repeat steps 3 through 6 for every object you want to animate. You can click the preview button to see how your animation works.</p>
+<p>Presentation Power Point Page 5 Changing the order of the animation on a slide 1. In the slide view, display the slide you want to change the order in. 2. On the slide show menu, click Custom Animation. 3. objects up or down on the list. 4. Repeat the process for each objects whose order you want to change. Add an effect on an animated object after it appears 1. In slide view, display the slide you want to add an effect to. 2. On the slide show menu, click Custom Animation, and then click the effects tab. 3. Under animation order, select the object you want to add an effect to, and then click an option under after animation. 4. Repeat the process for each object you want to add and effect to Add Transitions To A Slide Show For the slide show to flow well you need to transit your slide. 1. In the slide view, select the slide you want to transit 2. 3. In the effect box, choose a transition. 4. To apply a transition to one slide, click 5. To view the transition, click slide show. 8.10 PRINTING You can print your entire presentation either in black and white or color. 1. Open the presentation you want to print. 2. Click Office button, click print Select or set the required parameters Click Ok 8.9 Margins PowerPoint does not have fixed margins as in word processing programs. You can place text and objects right up to the edge of a slide. You align objects by resizing their placeholders.</p>
+<p>Presentation Power Point Page 6 CHAPTER NINE COMPUTERS NETWORKDS AND COMMUNICATIONS At the end of the chapter the learner shall be able to; Explain the hardware and Requirements for connecting to the Internet. Explain the features of common Internet services. Explain the e-mail terms Explain the advantages and disadvantages of the internet 9.1. Introduction A computer network is the infrastructure that allows two or more computers (called hosts) to communicate with each other. Definition A computer networks or data network is a telecommunication network which allows computer to exchange data A network can be defined as a group of computers and other devices connected in some ways so as to be able to exchange data. Each of the devices on the network can be thought of as a node; each node has a unique address. A computer network, often simply referred to as a network, is a collection of hardware components and computers interconnected by communication channels that allow sharing of resources and information. The best-known computer network is the internet. Communication Protocol All participating hosts on a network must observe/adhere to the communication protocol A communications protocol is a set of rules for exchanging information over a network The need for a protocol should be obvious: it allows different computers from different vendors and with different 9.2. Networks Objectives In computer networks, networked computing devices pass data to each other along data connections (network links). The connections between nodes are established using either cable media or wireless media. 1. Load Sharing: Both the program and data are transmitted to a remote computer to equalize the load between the two facilities. 2. Message Service: A network can be used to handle interpersonal message transmissions. This type of service can also be used for educational services and conference activities. However, it is not an important motivation for a network of scientific computers. 3. Data Sharing: The program is sent to a remote computer where a large data base exists. This type of operation will be particularly useful where data files are too large to be duplicated economically 4. Program Sharing 5. Remote Service 9.3. Network Components The network is made up of the following components: a) Hardware components hosts (PCs, laptops, handhelds) Communication line and devices routers &amp; switches b) Software Components Protocols (IP, TCP, CSMA/CD, CSMA/CA) Applications (network services) c) Humans and service agents A part from the computer, other hardware components of a computer network includes;</p>
+<p>Presentation Power Point Page 7 1) Network Adapters Modems: A modem is a device that converts computer information into electronic signals that can be transmitted over a phone line. At the other end of the line, another modem converts the telephone signals back into computer data. There are different types of network adapters that are used to configure or setup the internet technology on your operating system. 2) Gateway: device sitting at a network node for interfacing with another network that uses different protocols. A gateway acts as a protocol translators, thus allowing interconnections of networks with different network protocol technologies 3) Router: A router is a device that forwards data packets between computer networks. A router is connected to two or more data lines from different networks. When a data packet comes in on one of the lines, the router reads the address information in the packet to determine its ultimate destination. 4) Firewalls: is a software or hardware-based network security system that controls the incoming and outgoing network traffic by analyzing the data packets and determining whether they should be allowed through or not, based on applied rule set. Firewalls can be defined in many ways according to your level of understanding. A firewall establishes a barrier between a trusted, secure internal network and another network (e.g., the Internet) that is not assumed to be secure and trusted. 5) Bridge: a device that connects multiple network segments along the data link layer. Bridges broadcast to all ports except the port on which the broadcast was received. Bridges come in three basic types: a. Local bridges: Directly connect LANs b. Remote bridges: Can be used to create a wide area network (WAN) link between LANs. Remote bridges, where the connecting link is slower than the end networks, largely have been replaced with routers. c. Wireless bridges: Can be used to join LANs or connect remote stations to LANs. 6) Switch: A switch is a telecommunication device which receives a message from any device connected to it and then transmits the message only to that device for which the message was meant. A device that allocates, filters and forwards traffic (data gram) between ports based on the data gram address. 7) Repeater/Hub: device to amplify or regenerate digital signals received while sending them from one part of a network into another. A repeater is an electronic device that receives a signal, cleans it of unnecessary noise, regenerates it, and retransmits it at a higher power level, or to the other side of an obstruction, so that the signal can cover longer distances without degradation. 9.4. Characteristics of Computer Networks The following characteristics should be considered in network design and ongoing maintenance: 1) Availability. Availability is typically measured in a percentage based on the number of minutes that exist in a year. Therefore, uptime would be the number of minutes the network is available divided by the number of minutes in a year. 2) Cost: includes the cost of the network components, their installation, and their ongoing maintenance. 3) Reliability: defines the availability of the network components and the connectivity between them. Mean time between failures (MTBF) is commonly used to measure reliability. 4) Security: includes the protection of the network components and the data they contain and/or the data transmitted between them. 5) Speed: includes how fast data is transmitted between network end points (the data rate). 6) Scalability: defines how well the network can adapt to new growth, including new users, applications, and network components. 7) Topology: describes the physical cabling layout and the logical way data moves between components. 9.5. Network Terminologies 1. Intranet: An intranet is a set of networks, using the Internet Protocol and IP-based tools such as web browsers and file transfer applications, that is under the control of a single administrative entity. That administrative entity closes the intranet to all but specific, authorized users. Most commonly, an intranet is the internal network of an organization. A large intranet will typically have at least one web server to provide users with organizational information. 2. Extranet: An extranet is a network that is limited in scope to a single organization or entity and also has limited connections to the networks of one or more other usually, but not necessarily, trusted organizations or entitiesa company's customers may be given access to some part of its intranetwhile at the same time the customers may not be considered trusted from a security standpoint.</p>
+<p>Presentation Power Point Page 8 3. Local area network: A local area network (LAN) is a network that connects computers and devices in a limited geographical area such as home, school, computer laboratory, office building, or closely positioned group of buildings. Each computer or device on the network is a node. 4. Wide area network: A wide area network (WAN) is a computer network that covers a large geographic area such as a city, country, or spans even intercontinental distances, using a communications channel that combines many types of media such as telephone lines, cables, and air waves. A WAN often uses transmission facilities provided by common carriers, such as telephone companies. 5. Enterprise private network: An enterprise private network is a network built by an enterprise to interconnect various company sites, e.g., production sites, head offices, remote offices, shops, in order to share computer resources. 6. Virtual private network: A virtual private network (VPN) is a computer network in which some of the links between nodes are carried by open connections or virtual circuits in some larger network (e.g., the Internet) instead of by physical wires. 9.6. Network Topology A network topology is the layout of the interconnections of the nodes of a computer network. Network topology signifies the way in which devices in the network see their logical relations to one another. Network topology is independent of the &quot;physical&quot; layout of the network. Common layouts are: 1. Bus Network: all nodes are connected to a common communication medium / channel along this medium. 2. A star network: all nodes are connected to a special central node. This is the typical layout found in a wireless LAN, where each wireless client connects to the central Wireless Access Point. 3. A ring network: each node is connected to its left and right neighbour node, such that all nodes are connected and that each node can reach each other node by traversing nodes left- or rightwards. The Fiber Distributed Data Interface (FDDI) made use of such a topology. 4. A mesh network: each node is connected to an arbitrary number of neighbours in such a way that there is at least one traversal from any node to any other. 5. A fully connected network: each node is connected to every other node in the network. Network Topologies examples 9.7. Effects of computerization 1) The introduction of computers has lead into unemployment, in some companies thousands of workers have been made redundant. 2) Computer technology has created new opportunities for crime such as hacking, theft of data and the introduction of viruses. 3) Computers have caused stress at places of work as humans try to keep up with the output of their computers. 4) People who work with computers a lot without interacting with other people are likely to develop psychological problems due to isolation. 5) Computers have affected relationships of people working together such as employee-supervisor relationships and thus becoming a dehumanizing factor. 6) Computerization has caused job content reduction and role ambiguity. 7) Cause of power redistribution in organizations due to change in organizational structure. 8) Computers have been blocking factor for career paths.</p>
+<p>CHAPTER EIGHT: PRESENTATION GRAPHICS – MICROSOFT POWERPOINT</p>
+<p>Learning Objectives</p>
+<p>By the end of this lecture, learners should be able to:</p>
+<p>• Prepare a professional presentation using Microsoft PowerPoint.</p>
+<p>• Insert and format text, pictures, and objects.</p>
+<p>• Apply design, color, and background to enhance visual appeal.</p>
+<p>• Create organization charts and graphs using PowerPoint tools.</p>
+<p>• Use animations and slide transitions effectively.</p>
+<p>• Manage slide views, printing, and presentation delivery.</p>
+<p>8.1 INTRODUCTION TO POWERPOINT</p>
+<p>What is PowerPoint?</p>
+<p>Microsoft PowerPoint is a presentation graphics package that provides tools for</p>
+<p>creating visually appealing slides for lectures, business meetings, and professional</p>
+<p>communication. It allows users to combine text, graphics, audio, video, and</p>
+<p>animation into a single cohesive presentation.</p>
+<p>Key features include:</p>
+<p>• A slide-based structure for organizing content.</p>
+<p>• Templates and themes for design consistency.</p>
+<p>• Tools for inserting and formatting media objects.</p>
+<p>• Custom animations and transitions.</p>
+<p>• Slide show mode for presentation delivery.</p>
+<p>Definition of a Presentation</p>
+<p>A presentation is a collection of slides, handouts, speaker notes, and outlines that</p>
+<p>communicate a message to an audience. Each slide represents a unit of information.</p>
+<p>Definition of a Slide</p>
+<p>A slide is a single page in a presentation that may contain:</p>
+<p>• Titles and text</p>
+<p>• Images, charts, or graphs</p>
+<p>• Multimedia (audio, video, animations)</p>
+<p>• Shapes and objects</p>
+<p>Note: Each slide carries one main idea to ensure clarity and focus.</p>
+<p>8.2 POWERPOINT SCREEN AND MENUS</p>
+<p>PowerPoint provides several menus and ribbons that organize its functions:</p>
+<p>Menu / Tab Main Functions</p>
+<p>Home Adding slides, formatting text, paragraph alignment</p>
+<p>Insert Adding pictures, charts, tables, audio, video</p>
+<p>Design Applying themes, slide backgrounds, and layouts</p>
+<p>Animations Setting custom animations and motion paths</p>
+<p>Slide Show Running the presentation, setting transitions</p>
+<p>View Switching between slide, outline, or slide sorter views</p>
+<p>8.3 CREATING A NEW PRESENTATION</p>
+<p>Steps to create a new PowerPoint presentation:</p>
+<ol>
+<li>Launch PowerPoint from the Start Menu → Programs → PowerPoint.</li>
+<li>PowerPoint opens with a Blank Presentation containing a Title Slide.</li>
+<li>Enter your presentation title and presenter details.</li>
+<li>Click New Slide (on the Home tab) to add slides for different sections.</li>
+<li>Choose appropriate slide layouts (e.g., Title and Content, Comparison, Blank).</li>
+<li>Continue adding and formatting content for each slide.</li>
+</ol>
+<p>Tip:</p>
+<p>Keep each slide concise—ideally, one main idea per slide.</p>
+<p>8.4 SAVING A PRESENTATION</p>
+<p>To save a presentation:</p>
+<ol>
+<li>Click the File (Office Button) → Save As.</li>
+<li>Choose the file location (e.g., Desktop or Documents).</li>
+<li>Name your file appropriately (e.g., Lecture_Presentation.pptx).</li>
+<li>In the “Save as type” box, you may choose:</li>
+</ol>
+<p>o .pptx – standard PowerPoint file</p>
+<p>o .ppsx – PowerPoint Show (opens directly as a slideshow)</p>
+<p>Best practice:</p>
+<p>Save versions periodically to avoid data loss and maintain revisions.</p>
+<p>8.5 ADDING AND FORMATTING TEXT</p>
+<p>Adding Text</p>
+<p>• Type directly into a text placeholder on a slide.</p>
+<p>• To add text outside placeholders, use the Text Box Tool (Insert → Text Box).</p>
+<p>Formatting Text</p>
+<ol>
+<li>Highlight the desired text.</li>
+<li>Go to Home → Font group to change font type, size, color, or style.</li>
+<li>Use consistent fonts (e.g., Calibri, Arial) for professional readability.</li>
+</ol>
+<p>Bullets and Numbering</p>
+<p>• Highlight the text and choose Bullets or Numbering from the toolbar.</p>
+<p>• Customize bullet shape, color, and size via the Format → Bullets and</p>
+<p>Numbering dialog.</p>
+<p>Special Text Effects (WordArt)</p>
+<p>WordArt allows decorative text for emphasis or headings.</p>
+<ol>
+<li>Select Insert → WordArt.</li>
+<li>Choose a style and type your text.</li>
+<li>Adjust color, shadow, and rotation using the WordArt Tools ribbon.</li>
+</ol>
+<p>8.6 FORMATTING YOUR SLIDES</p>
+<p>Applying Background Colors</p>
+<ol>
+<li>Select the slide → Design → Format Background.</li>
+<li>Choose a solid fill, gradient, texture, or picture background.</li>
+<li>Click Apply to All to maintain uniformity.</li>
+</ol>
+<p>Using Design Templates</p>
+<ol>
+<li>Go to Design → Themes.</li>
+<li>Choose a pre-set design that fits your presentation context.</li>
+<li>Customize fonts and color schemes to match your institution or brand identity.</li>
+</ol>
+<p>Example:</p>
+<p>In academic presentations, use simple, high-contrast themes (e.g., white background,</p>
+<p>dark text) for readability.</p>
+<p>8.7 WORKING WITH VIEWS</p>
+<p>PowerPoint provides multiple viewing modes:</p>
+<p>View Type Purpose</p>
+<p>Normal View Main working view for editing individual slides</p>
+<p>Slide Sorter View Displays miniature versions of slides for reordering</p>
+<p>Outline View Shows slide titles and text in outline form</p>
+<p>Slide Show View Runs the presentation for delivery</p>
+<p>Notes Page View Displays slide with speaker notes</p>
+<p>8.8 WORKING WITH OBJECTS</p>
+<p>Objects enhance visual communication. They include:</p>
+<p>• Clip art and images</p>
+<p>• Shapes and AutoShapes</p>
+<p>• Charts, tables, and graphs</p>
+<p>• Media clips (audio/video)</p>
+<p>Inserting Pictures</p>
+<ol>
+<li>Go to Insert → Pictures.</li>
+<li>Choose from file, stock images, or online sources.</li>
+<li>Resize and position the image appropriately.</li>
+</ol>
+<p>Inserting AutoShapes</p>
+<ol>
+<li>Select Insert → Shapes.</li>
+<li>Choose a shape (e.g., arrow, rectangle, star).</li>
+<li>Draw and format using Shape Format Tools.</li>
+</ol>
+<p>Creating Organization Charts</p>
+<ol>
+<li>Go to Insert → SmartArt → Hierarchy.</li>
+<li>Enter names and positions.</li>
+<li>Customize colors and layout for clarity.</li>
+</ol>
+<p>8.9 ANIMATION AND SLIDE TRANSITIONS</p>
+<p>Purpose of Animation</p>
+<p>Animations draw attention to key points, control information flow, and make</p>
+<p>presentations dynamic.</p>
+<p>Steps to animate text or objects:</p>
+<ol>
+<li>Select the object → Animations → Add Animation.</li>
+<li>Choose entry effects (e.g., Fly In, Fade).</li>
+<li>Adjust Timing (on click or automatically).</li>
+<li>Use Animation Pane to reorder effects.</li>
+</ol>
+<p>Adding Slide Transitions</p>
+<ol>
+<li>Click on a slide → Transitions tab.</li>
+<li>Select an effect (e.g., Push, Wipe).</li>
+<li>Adjust duration and sound options.</li>
+<li>Click Apply to All for consistency.</li>
+</ol>
+<p>Tip:</p>
+<p>Use subtle transitions—avoid distracting effects in academic or corporate contexts.</p>
+<p>8.10 PRINTING AND OUTPUT</p>
+<p>Printing Options</p>
+<ol>
+<li>Click File → Print.</li>
+<li>Choose from:</li>
+</ol>
+<p>o Full Page Slides</p>
+<p>o Handouts (multiple slides per page)</p>
+<p>o Notes Pages</p>
+<p>o Outline View</p>
+<p>Best Practices</p>
+<p>• Check margins and color contrast before printing.</p>
+<p>• Use PDF export for easy sharing and consistent formatting.</p>
+<p>SUMMARY</p>
+<p>Microsoft PowerPoint remains one of the most powerful tools for professional</p>
+<p>communication. Effective presentations rely on:</p>
+<p>• Clear structure and minimal text.</p>
+<p>• Visual aids that complement content.</p>
+<p>• Consistent design, color, and animation.</p>
+<p>• Strong delivery supported by notes and transitions.</p>
+<h2 id="active-recall">Active recall</h2>
+<div class="steps"><div class="steps-title">Worked solution — reveal it step by step</div><div class="step"><button type="button" class="step-head"><span class="step-no">1</span><span class="step-name">Retrieval practice</span></button><div class="step-body"></div></div><div class="step"><button type="button" class="step-head"><span class="step-no">2</span><span class="step-name">Step 2</span></button><div class="step-body"><p>Close or cover the notes. Write the key idea, method, or definitions you remember.</p>
+</div></div><div class="step"><button type="button" class="step-head"><span class="step-no">3</span><span class="step-name">Step 3</span></button><div class="step-body"><p>Reopen the notes and correct your recall in a different color. Add weak points to the progress tracker.</p>
+</div></div><div class="steps-tools"><button type="button" class="steps-all">Reveal all steps</button></div></div>
+<div class="practice-links"><span>Practise this topic:</span><a href="../practice/QUESTION_BANK.html">Question bank</a></div>
+
+  </article>
+<nav class="pager"><a class="prev" href="../notes/07_spreadsheets-and-excel.html"><span class="dir">&larr; Previous</span><span class="name">07 · Spreadsheets and Excel</span></a><a class="next" href="../practice/QUESTION_BANK.html"><span class="dir">Next &rarr;</span><span class="name">Question bank</span></a></nav>
+  <footer class="foot">
+    CSC 111 — Introduction to Computer Systems. Source-based study notes.
+  </footer>
+</main>
+<aside class="toc">
+  <div class="toc-title">On this page</div>
+  <a href="#learning-checks">Learning checks</a><a href="#course-notes">Course notes</a><a href="#active-recall">Active recall</a>
+</aside>
+</div>
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-modal" role="dialog" aria-label="Search">
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+      <input id="searchInput" type="search" placeholder="Search every page, section and quiz&hellip;" autocomplete="off" aria-label="Search all pages">
+      <kbd>Esc</kbd>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+    <div class="search-foot"><span>&uarr;&darr; choose</span><span>Enter open</span><span>Esc close</span></div>
+  </div>
+</div>
+<div class="findbar" id="findBar" hidden>
+  <div class="find-inner">
+    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7V5h16v2M9 20h6M12 5v15"></path></svg>
+    <input id="findInput" type="search" placeholder="Find on this page&hellip;" autocomplete="off" aria-label="Find on this page">
+    <span class="find-count" id="findCount"></span>
+    <button class="mini-btn" id="findPrev" title="Previous match" aria-label="Previous match">&uarr;</button>
+    <button class="mini-btn" id="findNext" title="Next match" aria-label="Next match">&darr;</button>
+    <button class="mini-btn" id="findClose" title="Close (Esc)" aria-label="Close find">&times;</button>
+  </div>
+</div>
+<script src="../assets/search-index.js"></script>
+<script>
+(function () {
+  var root = document.documentElement;
+  try {
+    var saved = localStorage.getItem('csc111-theme');
+    if (saved) root.setAttribute('data-theme', saved);
+  } catch (e) {}
+
+  var btn = document.getElementById('themeBtn');
+  if (btn) btn.addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    btn.textContent = next === 'dark' ? '\u2600' : '\u263D';
+    try { localStorage.setItem('csc111-theme', next); } catch (e) {}
+  });
+
+  var bar = document.getElementById('progress');
+  if (bar) window.addEventListener('scroll', function () {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+  }, { passive: true });
+
+  // highlight the current section in the right-hand table of contents
+  var links = [].slice.call(document.querySelectorAll('.toc a'));
+  if (links.length) {
+    var heads = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+    window.addEventListener('scroll', function () {
+      var best = -1;
+      for (var i = 0; i < heads.length; i++) {
+        if (heads[i] && heads[i].getBoundingClientRect().top < 120) best = i;
+      }
+      links.forEach(function (a, i) { a.classList.toggle('active', i === best); });
+    }, { passive: true });
+  }
+
+  // on phones, start with the contents menu collapsed
+  var det = document.querySelector('.nav-details');
+  if (det && window.innerWidth < 1000) det.removeAttribute('open');
+
+  // ---- interactive checklist -------------------------------------------
+  var pageId  = document.body.getAttribute('data-page') || location.pathname;
+  var checks  = [].slice.call(document.querySelectorAll('.task-check'));
+  var countEl = document.getElementById('checkCount');
+  var resetBtn = document.getElementById('resetChecks');
+
+  function checkKey(el) { return 'csc111:task:' + pageId + ':' + el.getAttribute('data-task'); }
+  function updateCount() {
+    if (!countEl) return;
+    var done = checks.filter(function (c) { return c.checked; }).length;
+    countEl.textContent = done + ' / ' + checks.length + ' done';
+    countEl.classList.toggle('all', checks.length > 0 && done === checks.length);
+  }
+  checks.forEach(function (c) {
+    try { if (localStorage.getItem(checkKey(c)) === '1') c.checked = true; } catch (e) {}
+    c.addEventListener('change', function () {
+      try { localStorage.setItem(checkKey(c), c.checked ? '1' : '0'); } catch (e) {}
+      updateCount();
+    });
+  });
+  updateCount();
+  if (resetBtn) resetBtn.addEventListener('click', function () {
+    checks.forEach(function (c) {
+      c.checked = false;
+      try { localStorage.removeItem(checkKey(c)); } catch (e) {}
+    });
+    updateCount();
+  });
+
+  // ---- fill-in blanks ---------------------------------------------------
+  var blanks = [].slice.call(document.querySelectorAll('input.blank'));
+  blanks.forEach(function (b) {
+    var k = 'csc111:blank:' + pageId + ':' + b.getAttribute('data-blank');
+    try {
+      var v = localStorage.getItem(k);
+      if (v !== null) b.value = v;
+    } catch (e) {}
+    b.addEventListener('input', function () {
+      try { localStorage.setItem(k, b.value); } catch (e) {}
+      if (b.getAttribute('data-kind') === 'date') updateDays();
+    });
+  });
+
+  function updateDays() {
+    var date = document.querySelector('input.blank[data-kind="date"]');
+    var days = document.querySelector('input.blank[data-kind="days"]');
+    if (!date || !days) return;
+    if (!date.value) { days.value = ''; return; }
+    var d = new Date(date.value + 'T00:00:00');
+    if (isNaN(d.getTime())) { days.value = ''; return; }
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    days.value = String(Math.round((d - today) / 86400000));
+  }
+  updateDays();
+
+  // ---- mark as done + progress panel -----------------------------------
+  var doneBtn = document.getElementById('markDone');
+  var doneKey = 'csc111:done:' + pageId;
+  function isDone() { try { return localStorage.getItem(doneKey) === '1'; } catch (e) { return false; } }
+  function paintDone() {
+    if (!doneBtn) return;
+    doneBtn.textContent = isDone() ? '\u2713 Done' : 'Mark as done';
+    doneBtn.classList.toggle('is-done', isDone());
+  }
+  if (doneBtn) doneBtn.addEventListener('click', function () {
+    try { localStorage.setItem(doneKey, isDone() ? '0' : '1'); } catch (e) {}
+    paintDone();
+    renderPanel();
+  });
+  paintDone();
+
+  var panel = document.getElementById('donePanel');
+  var pages = [];
+  try { pages = JSON.parse(document.body.getAttribute('data-pages') || '[]'); } catch (e) {}
+  function renderPanel() {
+    if (!panel || !pages.length) return;
+    panel.innerHTML = '';
+    var n = 0;
+    pages.forEach(function (p) {
+      try { if (localStorage.getItem('csc111:done:' + p.key) === '1') n++; } catch (e) {}
+    });
+    var head = document.createElement('p');
+    head.className = 'done-summary';
+    head.textContent = n + ' / ' + pages.length + ' pages marked done';
+    panel.appendChild(head);
+
+    var list = document.createElement('ul');
+    list.className = 'done-list';
+    pages.forEach(function (p) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = p.href;
+      a.textContent = p.label;
+      var s = document.createElement('span');
+      var d = false;
+      try { d = localStorage.getItem('csc111:done:' + p.key) === '1'; } catch (e) {}
+      s.className = 'done-flag' + (d ? ' yes' : '');
+      s.textContent = d ? '\u2713 done' : 'not done';
+      li.appendChild(a);
+      li.appendChild(s);
+      list.appendChild(li);
+    });
+    panel.appendChild(list);
+  }
+  renderPanel();
+
+  // ---- multiple-choice quizzes -----------------------------------------
+  var quiz = document.querySelector('.quiz');
+  if (quiz) {
+    var quizId = quiz.getAttribute('data-quiz');
+    var total  = parseInt(quiz.getAttribute('data-total'), 10) || 0;
+    var correct = 0;
+    var answered = 0;
+    var bestKey = 'csc111:quiz:' + quizId;
+    var nowEl = quiz.querySelector('.quiz-now');
+    var bestEl = quiz.querySelector('.quiz-best');
+
+    function readBest() {
+      try { return parseInt(localStorage.getItem(bestKey) || '0', 10) || 0; } catch (e) { return 0; }
+    }
+    function paintBest() {
+      if (bestEl) bestEl.textContent = 'Best: ' + readBest() + ' / ' + total;
+    }
+    paintBest();
+
+    [].slice.call(quiz.querySelectorAll('.quiz-q')).forEach(function (q) {
+      var answer = parseInt(q.getAttribute('data-answer'), 10);
+      var feedback = q.querySelector('.quiz-feedback');
+      var why = q.querySelector('.quiz-why');
+      var opts = [].slice.call(q.querySelectorAll('.quiz-opt'));
+      opts.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (q.classList.contains('answered')) return;
+          q.classList.add('answered');
+          var pick = parseInt(btn.getAttribute('data-i'), 10);
+          opts.forEach(function (b) {
+            b.disabled = true;
+            if (parseInt(b.getAttribute('data-i'), 10) === answer) b.classList.add('correct');
+          });
+          if (pick === answer) {
+            correct++;
+            feedback.className = 'quiz-feedback good';
+          } else {
+            btn.classList.add('wrong');
+            feedback.className = 'quiz-feedback bad';
+          }
+          feedback.textContent = (pick === answer ? 'Correct. ' : 'Not quite. ') + (why ? why.textContent : '');
+          feedback.hidden = false;
+          answered++;
+          if (nowEl) nowEl.textContent = correct + ' / ' + total;
+          if (answered === total) {
+            var best = readBest();
+            if (correct > best) {
+              try { localStorage.setItem(bestKey, String(correct)); } catch (e) {}
+              paintBest();
+            }
+          }
+        });
+      });
+    });
+
+    var retry = quiz.querySelector('.quiz-retry');
+    if (retry) retry.addEventListener('click', function () {
+      correct = 0;
+      answered = 0;
+      if (nowEl) nowEl.textContent = '0 / ' + total;
+      [].slice.call(quiz.querySelectorAll('.quiz-q')).forEach(function (q) {
+        q.classList.remove('answered');
+        var f = q.querySelector('.quiz-feedback');
+        f.hidden = true;
+        f.textContent = '';
+        f.className = 'quiz-feedback';
+        [].slice.call(q.querySelectorAll('.quiz-opt')).forEach(function (b) {
+          b.disabled = false;
+          b.classList.remove('correct', 'wrong');
+        });
+      });
+    });
+  }
+
+  // print shows the answers so the PDF is a complete revision sheet
+  window.addEventListener('beforeprint', function () {
+    [].slice.call(document.querySelectorAll('details.reveal')).forEach(function (d) {
+      d.setAttribute('data-was-open', d.open ? '1' : '0');
+      d.open = true;
+    });
+  });
+  window.addEventListener('afterprint', function () {
+    [].slice.call(document.querySelectorAll('details.reveal')).forEach(function (d) {
+      if (d.getAttribute('data-was-open') === '0') d.open = false;
+    });
+  });
+})();
+</script>
+<script>
+(function () {
+  var SITE_ROOT = '../';
+
+  // ---- flip cards ----------------------------------------------------------
+  [].slice.call(document.querySelectorAll('.flipcard')).forEach(function (card) {
+    card.addEventListener('click', function () { card.classList.toggle('flipped'); });
+  });
+
+  // ---- inline multiple choice ----------------------------------------------
+  [].slice.call(document.querySelectorAll('.mcq')).forEach(function (box) {
+    var fb = box.querySelector('.mcq-feedback');
+    [].slice.call(box.querySelectorAll('.mcq-opt')).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (box.classList.contains('answered')) return;
+        box.classList.add('answered');
+        var correct = btn.getAttribute('data-correct') === 'true';
+        [].slice.call(box.querySelectorAll('.mcq-opt')).forEach(function (b) {
+          b.disabled = true;
+          if (b.getAttribute('data-correct') === 'true') b.classList.add('correct');
+        });
+        if (!correct) btn.classList.add('wrong');
+        var why = btn.getAttribute('data-why') || '';
+        fb.textContent = (correct ? 'Correct. ' : 'Not quite. ') + why;
+        fb.className = 'mcq-feedback ' + (correct ? 'good' : 'bad');
+        fb.hidden = false;
+      });
+    });
+  });
+
+  // ---- true / false ----------------------------------------------------------
+  [].slice.call(document.querySelectorAll('.tf')).forEach(function (box) {
+    var fb = box.querySelector('.tf-feedback');
+    var answer = box.getAttribute('data-answer') === 'false' ? 'false' : 'true';
+    [].slice.call(box.querySelectorAll('.tf-btn')).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (box.classList.contains('answered')) return;
+        box.classList.add('answered');
+        var correct = btn.getAttribute('data-pick') === answer;
+        [].slice.call(box.querySelectorAll('.tf-btn')).forEach(function (b) {
+          b.disabled = true;
+          if (b.getAttribute('data-pick') === answer) b.classList.add('correct');
+        });
+        if (!correct) btn.classList.add('wrong');
+        fb.textContent = (correct ? 'Correct. ' : 'Not quite. ') + (box.getAttribute('data-why') || '');
+        fb.className = 'tf-feedback ' + (correct ? 'good' : 'bad');
+        fb.hidden = false;
+      });
+    });
+  });
+
+  // ---- step-by-step solutions -------------------------------------------------
+  [].slice.call(document.querySelectorAll('.steps')).forEach(function (box) {
+    [].slice.call(box.querySelectorAll('.step-head')).forEach(function (h) {
+      h.addEventListener('click', function () { h.parentNode.classList.toggle('open'); });
+    });
+    var all = box.querySelector('.steps-all');
+    if (all) all.addEventListener('click', function () {
+      [].slice.call(box.querySelectorAll('.step')).forEach(function (s) { s.classList.add('open'); });
+      all.disabled = true;
+      all.textContent = 'All steps revealed';
+    });
+  });
+
+  // ---- full-text search overlay ------------------------------------------------
+  var INDEX = window.SEARCH_INDEX || [];
+  var overlay = document.getElementById('searchOverlay');
+  var sInput = document.getElementById('searchInput');
+  var sResults = document.getElementById('searchResults');
+  var sSel = -1;
+
+  function escHtml(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function runSearch(query) {
+    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t; });
+    if (!terms.length) return [];
+    var ql = query.toLowerCase();
+    var hits = [];
+    for (var n = 0; n < INDEX.length; n++) {
+      var e = INDEX[n];
+      var t = (e.t || '').toLowerCase();
+      var h = (e.h || '').toLowerCase();
+      var x = (e.x || '').toLowerCase();
+      var score = 0, ok = true, firstPos = -1;
+      for (var i = 0; i < terms.length; i++) {
+        var term = terms[i];
+        var pt = t.indexOf(term), ph = h.indexOf(term), px = x.indexOf(term);
+        if (pt < 0 && ph < 0 && px < 0) { ok = false; break; }
+        if (pt >= 0) score += 8;
+        if (ph >= 0) score += 5;
+        if (px >= 0) { score += 1; if (firstPos < 0) firstPos = px; }
+      }
+      if (!ok) continue;
+      if (ql.length > 3 && x.indexOf(ql) >= 0) score += 6;
+      if (h.indexOf(ql) >= 0) score += 4;
+      hits.push({ e: e, score: score, pos: firstPos });
+    }
+    hits.sort(function (a, b) { return b.score - a.score; });
+    return hits.slice(0, 24);
+  }
+
+  function snippetHtml(e, pos, query) {
+    var x = e.x || '';
+    if (pos < 0) pos = 0;
+    var start = Math.max(0, pos - 60);
+    var end = Math.min(x.length, pos + 150);
+    var raw = (start > 0 ? '\u2026' : '') + x.substring(start, end) + (end < x.length ? '\u2026' : '');
+    var html = escHtml(raw);
+    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t; })
+      .sort(function (a, b) { return b.length - a.length; });
+    for (var i = 0; i < terms.length; i++) {
+      var t = terms[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      html = html.replace(new RegExp('(' + t + ')', 'gi'), '<mark>$1</mark>');
+    }
+    return html;
+  }
+
+  function addHit(hit, query) {
+    var e = hit.e;
+    var a = document.createElement('a');
+    a.className = 'sr-item';
+    a.href = SITE_ROOT + e.u + (e.i ? '#' + e.i : '');
+    var meta = e.g + (e.h ? ' \u00b7 ' + e.h : '');
+    a.innerHTML =
+      '<span class="sr-meta">' + escHtml(meta) + '</span>' +
+      '<span class="sr-title">' + escHtml(e.t) + '</span>' +
+      (query ? '<span class="sr-snippet">' + snippetHtml(e, hit.pos, query) + '</span>' : '');
+    a.addEventListener('click', function () { closeSearch(); });
+    sResults.appendChild(a);
+  }
+
+  function paintSearch(query) {
+    sResults.innerHTML = '';
+    if (!query.trim()) {
+      var pages = [];
+      for (var n = 0; n < INDEX.length; n++) {
+        if (!INDEX[n].h) pages.push({ e: INDEX[n], pos: -1 });
+      }
+      pages.slice(0, 14).forEach(function (hit) { addHit(hit, ''); });
+      return;
+    }
+    var hits = runSearch(query);
+    if (!hits.length) {
+      sResults.innerHTML = '<div class="sr-empty">Nothing matches &ldquo;' + escHtml(query) + '&rdquo;. Try a shorter word.</div>';
+      return;
+    }
+    hits.forEach(function (hit) { addHit(hit, query); });
+  }
+
+  function paintSel() {
+    var items = [].slice.call(sResults.querySelectorAll('.sr-item'));
+    items.forEach(function (el, i) { el.classList.toggle('active', i === sSel); });
+    if (sSel >= 0 && items[sSel]) items[sSel].scrollIntoView({ block: 'nearest' });
+  }
+
+  function openSearch() {
+    if (!overlay) return;
+    overlay.hidden = false;
+    sInput.value = '';
+    paintSearch('');
+    sInput.focus();
+  }
+  function closeSearch() { if (overlay) overlay.hidden = true; }
+
+  if (overlay && sInput && sResults) {
+    document.getElementById('searchBtn').addEventListener('click', openSearch);
+    overlay.addEventListener('mousedown', function (ev) {
+      if (ev.target === overlay) closeSearch();
+    });
+    sInput.addEventListener('input', function () { paintSearch(sInput.value); });
+    sInput.addEventListener('keydown', function (ev) {
+      var items = [].slice.call(sResults.querySelectorAll('.sr-item'));
+      if (ev.key === 'ArrowDown') { ev.preventDefault(); if (sSel < items.length - 1) sSel++; paintSel(); }
+      else if (ev.key === 'ArrowUp') { ev.preventDefault(); if (sSel > 0) sSel--; paintSel(); }
+      else if (ev.key === 'Enter') {
+        ev.preventDefault();
+        var target = items[sSel >= 0 ? sSel : 0];
+        if (target) location.href = target.href;
+      }
+    });
+  }
+
+  // ---- find on this page --------------------------------------------------------
+  var findBar = document.getElementById('findBar');
+  var fInput = document.getElementById('findInput');
+  var fCount = document.getElementById('findCount');
+  var fMarks = [];
+  var fCur = -1;
+  var fTimer = null;
+
+  function collectTextNodes(el, out) {
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p = n.parentNode;
+        if (p && p.closest && p.closest('script,style,mark.find-m')) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    while (walker.nextNode()) out.push(walker.currentNode);
+    return out;
+  }
+
+  function clearFind() {
+    [].slice.call(document.querySelectorAll('mark.find-m')).forEach(function (m) {
+      var parent = m.parentNode;
+      if (!parent) return;
+      parent.replaceChild(document.createTextNode(m.textContent), m);
+      parent.normalize();
+    });
+    fMarks = [];
+    fCur = -1;
+  }
+
+  function paintFindCount() {
+    if (!fCount) return;
+    if (fMarks.length) {
+      fCount.textContent = (fCur + 1) + ' / ' + fMarks.length;
+    } else {
+      fCount.textContent = (fInput.value.trim().length >= 2 ? 'no match' : '');
+    }
+  }
+
+  function showFind(i) {
+    [].slice.call(document.querySelectorAll('mark.find-m.current')).forEach(function (m) {
+      m.classList.remove('current');
+    });
+    if (i >= 0 && i < fMarks.length) {
+      fCur = i;
+      var m = fMarks[i];
+      m.classList.add('current');
+      m.scrollIntoView({ block: 'center' });
+    }
+    paintFindCount();
+  }
+
+  function doFind(q) {
+    clearFind();
+    if (q.trim().length < 2) { paintFindCount(); return; }
+    var content = document.querySelector('.content') || document.body;
+    var nodes = collectTextNodes(content, []);
+    var ql = q.toLowerCase();
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      var lower = text.toLowerCase();
+      var idx = lower.indexOf(ql);
+      if (idx < 0) return;
+      var frag = document.createDocumentFragment();
+      var pos = 0;
+      while (idx >= 0) {
+        frag.appendChild(document.createTextNode(text.substring(pos, idx)));
+        var mk = document.createElement('mark');
+        mk.className = 'find-m';
+        mk.textContent = text.substring(idx, idx + ql.length);
+        frag.appendChild(mk);
+        fMarks.push(mk);
+        pos = idx + ql.length;
+        idx = lower.indexOf(ql, pos);
+      }
+      frag.appendChild(document.createTextNode(text.substring(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+    if (fMarks.length) showFind(0); else paintFindCount();
+  }
+
+  function openFind() {
+    if (!findBar) return;
+    findBar.hidden = false;
+    fInput.focus();
+    fInput.select();
+  }
+  function closeFind() {
+    if (!findBar) return;
+    findBar.hidden = true;
+    clearFind();
+    paintFindCount();
+  }
+
+  if (findBar && fInput) {
+    document.getElementById('findBtn').addEventListener('click', openFind);
+    document.getElementById('findClose').addEventListener('click', closeFind);
+    document.getElementById('findPrev').addEventListener('click', function () {
+      if (fMarks.length) showFind((fCur - 1 + fMarks.length) % fMarks.length);
+    });
+    document.getElementById('findNext').addEventListener('click', function () {
+      if (fMarks.length) showFind((fCur + 1) % fMarks.length);
+    });
+    fInput.addEventListener('input', function () {
+      if (fTimer) clearTimeout(fTimer);
+      fTimer = setTimeout(function () { doFind(fInput.value); }, 150);
+    });
+    fInput.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') {
+        ev.preventDefault();
+        if (fMarks.length) showFind((fCur + 1) % fMarks.length);
+      } else if (ev.key === 'Escape') {
+        closeFind();
+      }
+    });
+  }
+
+  // ---- global keyboard shortcuts --------------------------------------------------
+  document.addEventListener('keydown', function (ev) {
+    var inField = /^(input|textarea|select)$/i.test((ev.target && ev.target.tagName) || '');
+    if ((ev.ctrlKey || ev.metaKey) && (ev.key === 'k' || ev.key === 'K')) {
+      ev.preventDefault();
+      if (overlay && overlay.hidden) openSearch(); else closeSearch();
+    } else if (ev.ctrlKey && ev.altKey && (ev.key === 'f' || ev.key === 'F')) {
+      ev.preventDefault();
+      if (findBar && findBar.hidden) openFind(); else closeFind();
+    } else if (ev.key === 'Escape') {
+      if (overlay && !overlay.hidden) closeSearch();
+      else if (findBar && !findBar.hidden) closeFind();
+    } else if (ev.key === '/' && !inField && overlay && overlay.hidden) {
+      ev.preventDefault();
+      openSearch();
+    }
+  });
+})();
+</script>
+</body>
+</html>
